@@ -4,7 +4,9 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6817e7cf-4007-4727-9b20-8171e7469a16" name="Default" comment="" />
+    <list default="true" id="6817e7cf-4007-4727-9b20-8171e7469a16" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -82,6 +84,9 @@
       <find>banne</find>
       <find>img</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -161,16 +166,32 @@
   <component name="ProjectFrameBounds" extendedState="1">
     <option name="y" value="23" />
     <option name="width" value="1280" />
-    <option name="height" value="733" />
+    <option name="height" value="732" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="EatAndFitServletProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EatAndFitServletProject" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EatAndFitServletProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EatAndFitServletProject" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope" />
-      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -455,6 +476,7 @@
       <workItem from="1588940407150" duration="203000" />
       <workItem from="1588940667380" duration="1000" />
       <workItem from="1588940752931" duration="2000" />
+      <workItem from="1588960203992" duration="275000" />
     </task>
     <servers />
   </component>
@@ -491,7 +513,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="392691000" />
+    <option name="totallyTimeSpent" value="392966000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -503,9 +525,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="735" extended-state="6" />
+    <frame x="0" y="23" width="1280" height="732" extended-state="1" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7809524" visible="true" weight="0.23505655" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7809524" visible="true" weight="0.23828755" />
       <window_info id="Structure" order="1" sideWeight="0.4927769" weight="0.24798061" />
       <window_info id="Designer" order="2" />
       <window_info id="Nl-Palette" order="3" />
@@ -523,7 +545,7 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32744783" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.328125" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32293293" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.328125" />
