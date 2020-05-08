@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="eatfit@localhost" uuid="345f8ee8-bb66-4c64-9c69-7cc66c12d5db">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <schema-control>MANUAL</schema-control>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://localhost:5432/eatfit</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="eatfit@localhost [2]" uuid="3312437c-5cab-4564-a63f-8c4a35f9e59a">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <schema-control>MANUAL</schema-control>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://localhost:5432/eatfit</jdbc-url>
+    </data-source>
+  </component>
+</project>

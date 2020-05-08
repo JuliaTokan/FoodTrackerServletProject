@@ -1,0 +1,745 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="3" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6817e7cf-4007-4727-9b20-8171e7469a16" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="My web app" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+        <option value="Jsp File" />
+        <option value="Interface" />
+        <option value="JUnit4 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>&lt;h1</find>
+      <find>&lt;lab</find>
+      <find>&lt;input</find>
+      <find>tex</find>
+      <find>slider_area</find>
+      <find>open</find>
+      <find>selecte</find>
+      <find>dd-s</find>
+      <find>Sati</find>
+      <find>.slider_area .single_slider</find>
+      <find>fs-subtitle</find>
+      <find>inva</find>
+      <find>inv</find>
+      <find>.header-area .main-header-area.sticky</find>
+      <find>si</find>
+      <find>st</find>
+      <find>sticky-header</find>
+      <find>stic</find>
+      <find>sticky</find>
+      <find>scroll</find>
+      <find>88</find>
+      <find>slider</find>
+      <find>.slider_area .single_slider .slider_text h3</find>
+      <find>h2</find>
+      <find>.genric-btn.warning</find>
+      <find>.genric-btn.e-large</find>
+      <find>.slider_bg_1</find>
+      <find>.genric-btn.success-border</find>
+      <find>banne</find>
+      <find>img</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/webapp/static/css/meals.css" />
+        <option value="$PROJECT_DIR$/src/main/webapp/static/js/meals.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/static/css/diagram.css" />
+        <option value="$PROJECT_DIR$/src/main/webapp/error.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/client_info_registration.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/admin_meals.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/meals.jsp" />
+        <option value="$PROJECT_DIR$/src/test/java/ua/external/servlets/service/impl/ProductServiceTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ua/external/servlets/service/impl/MealsServiceTest.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/static/js/validator.js" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/external/servlets/validator/DataValidator.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/client_edit.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/first_registration.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/static/js/first_registration.js" />
+        <option value="$PROJECT_DIR$/src/test/java/ua/external/servlets/validator/DataValidatorTest.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/external/servlets/filter/RegistrationFilter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/external/servlets/command/impl/LoginCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/external/servlets/filter/CharacterEncodingFilter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/external/servlets/util/cоnst/EmailContent.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/external/servlets/mail/SendEmail.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/external/servlets/command/impl/RegisterCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/external/servlets/command/impl/meals/AddMealsCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/external/servlets/command/impl/info/RecepiesPageCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/external/servlets/util/page/Page.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/external/servlets/command/impl/info/ContactsPageCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/external/servlets/command/impl/info/AboutPageCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/external/servlets/command/impl/info/RecipesPageCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/external/servlets/controller/Controller.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/external/servlets/command/CommandEnum.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/header.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/progress.jsp" />
+        <option value="$PROJECT_DIR$/src/main/resources/locale/pagecontent.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/external/servlets/command/factory/ActionFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/resources/locale/pagecontent_en_US.properties" />
+        <option value="$PROJECT_DIR$/src/main/webapp/footer.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/about.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/Recipes.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/contact.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/static/css/style.css" />
+        <option value="$PROJECT_DIR$/src/main/webapp/static/css/progressbar.css" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/external/servlets/builder/ClientBuilder.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ua/external/servlets/util/password/PasswordHashGeneratorTest.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/db/delete.sql" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/external/servlets/dao/impl/UserDao.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ua/external/servlets/service/impl/UserServiceTest.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/db/database.properties" />
+        <option value="$PROJECT_DIR$/src/test/resources/db/init.sql" />
+        <option value="$PROJECT_DIR$/src/test/java/ua/external/servlets/service/impl/ClientServiceTest.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="mywebapp Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="y" value="23" />
+    <option name="width" value="1280" />
+    <option name="height" value="733" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="postgresql" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1588940573941" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="create.test.in.the.same.root" value="true" />
+    <property name="database.console.LAST_STATE" value="false" />
+    <property name="full.screen.before.presentation.mode" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+  </component>
+  <component name="RecentsManager">
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="ua.external.servlets.service" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="ua.external.servlets.service.impl" />
+      <recent name="ua.external.servlets.util.password" />
+      <recent name="ua.external.servlets.validator" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test" />
+      <recent name="$PROJECT_DIR$/src/main/webapp/static/img" />
+      <recent name="$PROJECT_DIR$/src/main/webapp/static/img/gradient" />
+      <recent name="$PROJECT_DIR$/src/main/webapp/static/img/banner" />
+      <recent name="$PROJECT_DIR$/src/main/webapp" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ua.external.servlets.controller" />
+      <recent name="ua.external.servlets.entity" />
+      <recent name="ua.external.servlets.filter" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/src/main/webapp/static/img/gradient" />
+      <recent name="$PROJECT_DIR$/src/main/webapp" />
+      <recent name="$PROJECT_DIR$/src/main/webapp/static/img" />
+      <recent name="$PROJECT_DIR$/src/main" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Maven.Tomcat">
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="EXTRA_OPTIONS" value="" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
+        <option name="GAPID_ENABLED" value="false" />
+        <option name="GAPID_DISABLE_PCS" value="false" />
+        <option name="SUPPORT_LIB_ENABLED" value="true" />
+        <option name="INSTRUMENTATION_ENABLED" value="true" />
+      </Profilers>
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClientServiceTest.findClientById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="EatAndFitServletProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ua.external.servlets.service.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ua.external.servlets.service.impl" />
+      <option name="MAIN_CLASS_NAME" value="ua.external.servlets.service.impl.ClientServiceTest" />
+      <option name="METHOD_NAME" value="findClientById" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DataValidatorTest.validatePassword" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="EatAndFitServletProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ua.external.servlets.validator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ua.external.servlets.validator" />
+      <option name="MAIN_CLASS_NAME" value="ua.external.servlets.validator.DataValidatorTest" />
+      <option name="METHOD_NAME" value="validatePassword" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PasswordHashGeneratorTest.hash" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="EatAndFitServletProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ua.external.servlets.util.password.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ua.external.servlets.util.password" />
+      <option name="MAIN_CLASS_NAME" value="ua.external.servlets.util.password.PasswordHashGeneratorTest" />
+      <option name="METHOD_NAME" value="hash" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceTest.createUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="EatAndFitServletProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ua.external.servlets.service.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ua.external.servlets.service.impl" />
+      <option name="MAIN_CLASS_NAME" value="ua.external.servlets.service.impl.UserServiceTest" />
+      <option name="METHOD_NAME" value="createUser" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceTest.findUserByLogin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="EatAndFitServletProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ua.external.servlets.service.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ua.external.servlets.service.impl" />
+      <option name="MAIN_CLASS_NAME" value="ua.external.servlets.service.impl.UserServiceTest" />
+      <option name="METHOD_NAME" value="findUserByLogin" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="tomcat7:run" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2">
+        <option name="Maven.BeforeRunTask" enabled="true" file="$PROJECT_DIR$/pom.xml" goal="clean" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ClientServiceTest.findClientById" />
+        <item itemvalue="JUnit.UserServiceTest.findUserByLogin" />
+        <item itemvalue="JUnit.UserServiceTest.createUser" />
+        <item itemvalue="JUnit.PasswordHashGeneratorTest.hash" />
+        <item itemvalue="JUnit.DataValidatorTest.validatePassword" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6817e7cf-4007-4727-9b20-8171e7469a16" name="Default" comment="" />
+      <created>1484050631024</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1484050631024</updated>
+      <workItem from="1582366471982" duration="10784000" />
+      <workItem from="1582532704403" duration="5494000" />
+      <workItem from="1582543261990" duration="2310000" />
+      <workItem from="1582712344391" duration="3274000" />
+      <workItem from="1582729382217" duration="2067000" />
+      <workItem from="1583856682342" duration="350000" />
+      <workItem from="1583857375398" duration="3790000" />
+      <workItem from="1583877653373" duration="3315000" />
+      <workItem from="1584540845602" duration="36000" />
+      <workItem from="1584717077851" duration="7027000" />
+      <workItem from="1585218984336" duration="2602000" />
+      <workItem from="1585305476654" duration="4935000" />
+      <workItem from="1585339635837" duration="89220000" />
+      <workItem from="1586630825919" duration="105339000" />
+      <workItem from="1587672805694" duration="41621000" />
+      <workItem from="1588017001725" duration="59135000" />
+      <workItem from="1588456797134" duration="28458000" />
+      <workItem from="1588707160790" duration="15479000" />
+      <workItem from="1588888935674" duration="157000" />
+      <workItem from="1588889161750" duration="7047000" />
+      <workItem from="1588940359593" duration="45000" />
+      <workItem from="1588940407150" duration="203000" />
+      <workItem from="1588940667380" duration="1000" />
+      <workItem from="1588940752931" duration="2000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="ClientServiceTest_findClientById - 2020.05.08 at 13h 29m 59s.xml">
+      <configuration name="ClientServiceTest.findClientById" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ClientServiceTest_findClientById - 2020.05.08 at 13h 32m 15s.xml">
+      <configuration name="ClientServiceTest.findClientById" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ClientServiceTest_findClientById - 2020.05.08 at 13h 32m 45s.xml">
+      <configuration name="ClientServiceTest.findClientById" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ClientServiceTest_findClientById - 2020.05.08 at 13h 35m 12s.xml">
+      <configuration name="ClientServiceTest.findClientById" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ClientServiceTest_findClientById - 2020.05.08 at 13h 39m 12s.xml">
+      <configuration name="ClientServiceTest.findClientById" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ClientServiceTest_findClientById - 2020.05.08 at 13h 39m 38s.xml">
+      <configuration name="ClientServiceTest.findClientById" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ClientServiceTest_findClientById - 2020.05.08 at 13h 40m 24s.xml">
+      <configuration name="ClientServiceTest.findClientById" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ClientServiceTest_findClientById - 2020.05.08 at 13h 42m 11s.xml">
+      <configuration name="ClientServiceTest.findClientById" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ClientServiceTest_findClientById - 2020.05.08 at 13h 43m 42s.xml">
+      <configuration name="ClientServiceTest.findClientById" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ClientServiceTest_findClientById - 2020.05.08 at 13h 44m 15s.xml">
+      <configuration name="ClientServiceTest.findClientById" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="392691000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1280" height="735" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7809524" visible="true" weight="0.23505655" />
+      <window_info id="Structure" order="1" sideWeight="0.4927769" weight="0.24798061" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Nl-Palette" order="3" />
+      <window_info id="Favorites" order="4" sideWeight="0.21904762" side_tool="true" weight="0.2914485" />
+      <window_info id="Image Layers" order="5" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="UI Designer" order="7" />
+      <window_info id="Web" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32744783" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.46333852" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.25682184" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32744783" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.328125" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32293293" />
+      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.328125" />
+      <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Console" order="14" weight="0.3296355" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Properties" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
+      <window_info anchor="right" id="Maven" order="9" weight="0.32984293" />
+      <window_info anchor="right" id="JSF" order="10" />
+      <window_info anchor="right" id="Database" order="11" weight="0.10820244" />
+      <window_info anchor="right" id="CDI" order="12" weight="0.32984293" />
+      <window_info anchor="right" id="Bean Validation" order="13" weight="0.32984293" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7809524" visible="true" weight="0.21902269" />
+      <window_info id="Structure" order="1" sideWeight="0.4927769" weight="0.2486911" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Nl-Palette" order="3" />
+      <window_info id="Favorites" order="4" sideWeight="0.21904762" side_tool="true" weight="0.2914485" />
+      <window_info id="Image Layers" order="5" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="UI Designer" order="7" />
+      <window_info id="Web" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32744783" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.08025682" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.25682184" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32744783" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.328125" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3258427" />
+      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.328125" />
+      <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Console" order="14" weight="0.3296355" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Properties" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
+      <window_info anchor="right" id="Maven" order="9" weight="0.32984293" />
+      <window_info anchor="right" id="JSF" order="10" />
+      <window_info anchor="right" id="Database" order="11" weight="0.10820244" />
+      <window_info anchor="right" id="CDI" order="12" weight="0.32984293" />
+      <window_info anchor="right" id="Bean Validation" order="13" weight="0.32984293" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/webapp/first_registration.jsp</url>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/client_edit.jsp" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/client_info_registration.jsp" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/js/first_registration.js" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/ua/external/servlets/validator/DataValidatorTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/external/servlets/filter/RegistrationFilter.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/external/servlets/command/impl/LoginCommand.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/external/servlets/util/cоnst/EmailContent.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/external/servlets/mail/SendEmail.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/external/servlets/command/impl/RegisterCommand.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/external/servlets/command/impl/meals/AddMealsCommand.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/external/servlets/command/impl/RegisterPageCommand.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/external/servlets/util/page/Page.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/external/servlets/command/impl/info/ContactsPageCommand.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/external/servlets/command/impl/info/AboutPageCommand.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/external/servlets/command/impl/info/RecipesPageCommand.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/external/servlets/command/ActionCommand.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/external/servlets/filter/CharacterEncodingFilter.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/external/servlets/controller/Controller.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/progress.jsp" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/external/servlets/command/CommandEnum.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/header.jsp" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/locale/pagecontent.properties" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/external/servlets/command/factory/ActionFactory.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/footer.jsp" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/first_registration.jsp" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/blog.jsp" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/css/style.css" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/locale/pagecontent_en_US.properties" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/css/progressbar.css" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/about.jsp" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/Recipes.jsp" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/contact.jsp" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/external/servlets/builder/ClientBuilder.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/ua/external/servlets/service/impl/MealsServiceTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/external/servlets/dao/EntityTransaction.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/external/servlets/pool/ConnectionPool.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/ua/external/servlets/util/password/PasswordHashGeneratorTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/external/servlets/entity/User.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/resources/db/delete.sql" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/external/servlets/sql/sql_db.sql" />
+    <entry file="file://$PROJECT_DIR$/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/external/servlets/service/impl/UserService.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/external/servlets/dao/impl/UserDao.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/ua/external/servlets/service/impl/UserServiceTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/ua/external/servlets/service/impl/ClientServiceTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/resources/db/init.sql" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/external/servlets/dao/impl/ClientDao.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/resources/db/database.properties" />
+    <entry file="file://$PROJECT_DIR$/EatAndFitServletProject.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>My web app:war</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>My web app</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: javax:javaee-api:6.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
