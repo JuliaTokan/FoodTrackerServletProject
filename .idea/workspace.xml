@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6817e7cf-4007-4727-9b20-8171e7469a16" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -36,7 +36,17 @@
     <favorites_list name="My web app" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="499">
+              <caret line="125" column="21" lean-forward="true" selection-start-line="125" selection-start-column="21" selection-end-line="125" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -136,12 +146,12 @@
         <option value="$PROJECT_DIR$/src/main/java/ua/external/servlets/builder/ClientBuilder.java" />
         <option value="$PROJECT_DIR$/src/test/java/ua/external/servlets/util/password/PasswordHashGeneratorTest.java" />
         <option value="$PROJECT_DIR$/src/test/resources/db/delete.sql" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/ua/external/servlets/dao/impl/UserDao.java" />
         <option value="$PROJECT_DIR$/src/test/java/ua/external/servlets/service/impl/UserServiceTest.java" />
         <option value="$PROJECT_DIR$/src/test/resources/db/database.properties" />
         <option value="$PROJECT_DIR$/src/test/resources/db/init.sql" />
         <option value="$PROJECT_DIR$/src/test/java/ua/external/servlets/service/impl/ClientServiceTest.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -163,8 +173,8 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="y" value="23" />
+  <component name="ProjectFrameBounds">
+    <option name="y" value="58" />
     <option name="width" value="1280" />
     <option name="height" value="732" />
   </component>
@@ -476,7 +486,7 @@
       <workItem from="1588940407150" duration="203000" />
       <workItem from="1588940667380" duration="1000" />
       <workItem from="1588940752931" duration="2000" />
-      <workItem from="1588960203992" duration="275000" />
+      <workItem from="1588960203992" duration="490000" />
     </task>
     <servers />
   </component>
@@ -513,7 +523,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="392966000" />
+    <option name="totallyTimeSpent" value="393181000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -525,7 +535,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="732" extended-state="1" />
+    <frame x="0" y="23" width="1280" height="732" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7809524" visible="true" weight="0.23828755" />
       <window_info id="Structure" order="1" sideWeight="0.4927769" weight="0.24798061" />
@@ -664,7 +675,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/ua/external/servlets/entity/User.java" />
     <entry file="file://$PROJECT_DIR$/src/test/resources/db/delete.sql" />
     <entry file="file://$PROJECT_DIR$/src/main/java/ua/external/servlets/sql/sql_db.sql" />
-    <entry file="file://$PROJECT_DIR$/pom.xml" />
     <entry file="file://$PROJECT_DIR$/src/main/java/ua/external/servlets/service/impl/UserService.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/ua/external/servlets/dao/impl/UserDao.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/ua/external/servlets/service/impl/UserServiceTest.java" />
@@ -674,6 +684,13 @@
     <entry file="file://$PROJECT_DIR$/src/test/resources/db/database.properties" />
     <entry file="file://$PROJECT_DIR$/EatAndFitServletProject.iml">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="499">
+          <caret line="125" column="21" lean-forward="true" selection-start-line="125" selection-start-column="21" selection-end-line="125" selection-end-column="21" />
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">
