@@ -7,6 +7,9 @@ import ua.external.servlets.util.page.Page;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+/**
+ * Get page for sign up
+ */
 public class RegisterPageCommand implements ActionCommand {
     @Override
     public CommandResult execute(HttpServletRequest request, HttpServletResponse response) {

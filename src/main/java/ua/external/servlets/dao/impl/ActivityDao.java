@@ -14,6 +14,9 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
+/**
+ * DAO implementation for the PostgreSQL DB
+ */
 public class ActivityDao extends AbstractDao<Long, Activity> implements IActivityDao {
     private final static String SQL_SELECT_ALL_ACTIVITIES = "SELECT * FROM activities";
     private final static String SQL_SELECT_ACTIVITY_BY_ID = "SELECT * FROM activities WHERE id = ?";

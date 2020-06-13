@@ -1,5 +1,8 @@
 package ua.external.servlets.util.page;
 
+/**
+ * Page constants
+ */
 public class Page {
     public static final String LOGIN_PAGE = "/sign/up";
 

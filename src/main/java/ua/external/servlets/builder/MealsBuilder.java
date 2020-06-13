@@ -3,10 +3,12 @@ package ua.external.servlets.builder;
 import ua.external.servlets.entity.EatPeriod;
 import ua.external.servlets.entity.Meals;
 import ua.external.servlets.entity.Product;
-import ua.external.servlets.entity.enums.TimeMeals;
 
 import java.sql.Timestamp;
 
+/**
+ * Provide the construction of a complex object
+ */
 public class MealsBuilder {
     private Long id;
     private Long user_id;

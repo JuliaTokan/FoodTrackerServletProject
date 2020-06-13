@@ -2,6 +2,9 @@ package ua.external.servlets.builder;
 
 import ua.external.servlets.entity.Product;
 
+/**
+ * Provide the construction of a complex object
+ */
 public class ProductBuilder {
     private Long id;
     private Long user_id;
@@ -11,6 +14,7 @@ public class ProductBuilder {
     private Double fats;
     private Double carbohydrates;
     private Boolean common = false;
+    private Boolean deleted = false;
 
     public ProductBuilder setId(Long id) {
         this.id = id;
@@ -52,7 +56,12 @@ public class ProductBuilder {
         return this;
     }
 
+    public ProductBuilder setDeleted(Boolean deleted) {
+        this.deleted = deleted;
+        return this;
+    }
+
     public Product createProduct() {
-        return new Product(id, user_id, name, calories, protein, fats, carbohydrates, common);
+        return new Product(id, user_id, name, calories, protein, fats, carbohydrates, common, deleted);
     }
 }

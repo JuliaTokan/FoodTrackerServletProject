@@ -2,6 +2,9 @@ package ua.external.servlets.entity;
 
 import ua.external.servlets.entity.Entity;
 
+/**
+ * A model class for eat period database table
+ */
 public class EatPeriod extends Entity {
     private String period;
 

@@ -19,6 +19,11 @@ import static java.util.Objects.nonNull;
 import static ua.external.servlets.util.cоnst.JspConst.*;
 import static ua.external.servlets.util.cоnst.SessionConst.SESSION_EXIST_USER;
 
+/**
+ * The {@code AuthorizationFilter} class
+ * is an implementation of {@code Filter} interface.
+ * Checks user data exist.
+ */
 @WebFilter(filterName = "RegistrationFilter", urlPatterns = {"/sign/up"})
 public class RegistrationFilter implements Filter {
     private static Logger log = LogManager.getLogger(RegistrationFilter.class);
@@ -39,7 +44,7 @@ public class RegistrationFilter implements Filter {
         final HttpSession session = request.getSession();
 
         if (nonNull(session) && nonNull(session.getAttribute(SESSION_EXIST_USER)) && (boolean) session.getAttribute(SESSION_EXIST_USER) == true) {
-            //user уже авторизирован
+            //user already login
             response.sendRedirect(Page.WELCOME_PAGE);
         } else {
             try {

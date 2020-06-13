@@ -37,7 +37,7 @@ public class AuthorizationFilter implements Filter {
         final HttpSession session = request.getSession();
 
         if (nonNull(session) && nonNull(session.getAttribute("exist_user")) && (boolean)session.getAttribute("exist_user") == true) {
-            //user уже авторизирован
+            //user already login
             response.sendRedirect("/");
         } else {
             PasswordHashGenerator passwordHashGenerator = new PasswordHashGenerator();

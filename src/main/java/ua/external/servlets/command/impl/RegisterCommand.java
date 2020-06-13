@@ -26,6 +26,15 @@ import static ua.external.servlets.util.cоnst.JspConst.*;
 import static ua.external.servlets.util.cоnst.SessionConst.SESSION_EXIST_USER;
 import static ua.external.servlets.util.cоnst.SessionConst.SESSION_USER;
 
+/**
+ * Gets login, password, password confirmation, firstName, lastName, address and telephone number
+ * values from the request.
+ * Validates this values, if input data is not valid, returns router to the same page with message
+ * about incorrect input data.
+ * Otherwise, register new user (creates entity and updates database),
+ * sets sessions attributes for current user and
+ * returns router to the client registration page.
+ */
 public class RegisterCommand implements ActionCommand {
     private static Logger log = LogManager.getLogger(RegisterCommand.class);
     private PasswordHashGenerator passwordHashGenerator = new PasswordHashGenerator();

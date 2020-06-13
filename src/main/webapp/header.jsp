@@ -66,14 +66,14 @@
                         </div>
                     </div>
                     <div class="col-xl-3 col-lg-3 d-none d-lg-block">
-                        <c:if test="${sessionScope.local == 'en_US'}">
+                        <c:if test="${sessionScope.local == null || sessionScope.local == 'en_US'}">
                             <div class="search_icon">
                                 <a href="/locale/set?lang=ru_RU">
-                                    <i>RU</i>
+                                    <i>UA</i>
                                 </a>
                             </div>
                         </c:if>
-                        <c:if test="${sessionScope.local == null ||sessionScope.local == 'ru_RU'}">
+                        <c:if test="${sessionScope.local == 'ru_RU'}">
                             <div class="search_icon">
                                 <a href="/locale/set?lang=en_US">
                                     <i>EN</i>

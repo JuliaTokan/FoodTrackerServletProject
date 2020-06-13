@@ -1,5 +1,8 @@
 package ua.external.servlets.entity;
 
+/**
+ * A model class for user role database table
+ */
 public class UserRole extends Entity {
     private String role;
 

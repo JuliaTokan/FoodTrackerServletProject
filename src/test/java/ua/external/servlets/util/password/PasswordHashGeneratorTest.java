@@ -9,6 +9,7 @@ public class PasswordHashGeneratorTest {
     @Test
     public void hash() {
         String actual = generator.hash("2016-Om-7");
+        System.out.println(generator.hash("qwe12345"));
         String expected = "e84ceafb2fadee8f4290972263face2f1d7887b9";
         assertEquals(actual, expected);
     }

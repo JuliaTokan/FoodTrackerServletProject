@@ -14,6 +14,11 @@ import static java.util.Objects.nonNull;
 import static ua.external.servlets.util.cоnst.SessionConst.SESSION_EXIST_USER;
 import static ua.external.servlets.util.cоnst.SessionConst.SESSION_USER;
 
+/**
+ * The {@code AuthorizationFilter} class
+ * is an implementation of {@code Filter} interface.
+ * Checks user login and command if it is accessible for him.
+ */
 @WebFilter(filterName = "UserFilter", urlPatterns = {"/client/*", "/user/*"})
 public class UserFilter implements Filter {
     @Override

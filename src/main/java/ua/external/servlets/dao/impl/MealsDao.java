@@ -12,18 +12,19 @@ import ua.external.servlets.service.impl.EatPeriodService;
 import ua.external.servlets.service.impl.ProductService;
 import ua.external.servlets.service.ServiceException;
 
-import java.sql.PreparedStatement;
-import java.sql.ResultSet;
-import java.sql.SQLException;
-import java.sql.Statement;
+import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
+/**
+ * DAO implementation for the PostgreSQL DB
+ */
 public class MealsDao extends AbstractDao<Long, Meals> implements IMealsDao {
     private final static String SQL_SELECT_ALL_MEALS = "SELECT * FROM meals";
     private final static String SQL_SELECT_MEALS_BY_ID = "SELECT * FROM meals WHERE id = ?";
     private final static String SQL_SELECT_MEALS_BY_USER = "SELECT * FROM meals WHERE user_id = ?";
+    private final static String SQL_SELECT_MEALS_BY_USER_AND_DAY = "SELECT * FROM meals WHERE user_id = ? AND TO_CHAR(date, 'YYYY-MM-DD') = ?";
     private final static String SQL_CREATE_MEALS = "INSERT INTO meals (user_id, product_id, weight, eat_period_id, date) VALUES (?, ?, ?, ?, ?)";
     private final static String SQL_UPDATE_MEALS = "UPDATE meals SET user_id= ?, product_id= ?, weight= ?, eat_period_id= ?, date= ? WHERE id= ?";
     private final static String SQL_DELETE_MEAL = "DELETE FROM meals WHERE id= ?";
@@ -78,6 +79,27 @@ public class MealsDao extends AbstractDao<Long, Meals> implements IMealsDao {
         try {
             statement = connection.prepareStatement(SQL_SELECT_MEALS_BY_USER);
             statement.setLong(1, id);
+            ResultSet resultSet = statement.executeQuery();
+            while (resultSet.next()) {
+                Meals meals = extractMeals(resultSet);
+                mealsList.add(meals);
+            }
+        } catch (SQLException e) {
+            throw new DaoException(e);
+        } finally {
+            close(statement);
+        }
+        return mealsList;
+    }
+
+    //@Override
+    public List<Meals> findAllByUserAndDay(Long id, String date) throws DaoException {
+        List<Meals> mealsList = new ArrayList<>();
+        PreparedStatement statement = null;
+        try {
+            statement = connection.prepareStatement(SQL_SELECT_MEALS_BY_USER_AND_DAY);
+            statement.setLong(1, id);
+            statement.setString(2, date);
             ResultSet resultSet = statement.executeQuery();
             while (resultSet.next()) {
                 Meals meals = extractMeals(resultSet);

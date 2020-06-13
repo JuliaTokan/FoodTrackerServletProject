@@ -4,6 +4,8 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import ua.external.servlets.command.ActionCommand;
 import ua.external.servlets.command.CommandResult;
+import ua.external.servlets.dao.DaoException;
+import ua.external.servlets.dao.impl.ProductDao;
 import ua.external.servlets.entity.Product;
 import ua.external.servlets.entity.User;
 import ua.external.servlets.service.impl.ProductService;
@@ -21,6 +23,12 @@ import java.util.List;
 
 import static ua.external.servlets.util.cоnst.JspConst.*;
 
+/**
+ * Gets product information.
+ * Validates this values, if input data is not valid,
+ * returns router to the same page with message about invalid values.
+ * Otherwise, create product and returns router to the same page.
+ */
 public class AdminProductCommand implements ActionCommand {
     private static Logger log = LogManager.getLogger(AdminProductCommand.class);
     private ProductService productService = new ProductService();
@@ -31,36 +39,39 @@ public class AdminProductCommand implements ActionCommand {
         HttpSession session = request.getSession();
         User user = (User) session.getAttribute(PARAM_USER);
 
-        List<Product> allProducts = new ArrayList<>();
+        List<Product> products = new ArrayList<>();
+
+        final int TOTAL_PAGES;
+        int numOfProducts = 0;
+        try {
+            numOfProducts = productService.getNumberOfRows(user.getId());
+        } catch (ServiceException e) {
+            e.printStackTrace();
+        }
+        if (numOfProducts % TOTAL_PER_PAGE == 0) {
+            TOTAL_PAGES = numOfProducts / TOTAL_PER_PAGE;
+        } else {
+            TOTAL_PAGES = numOfProducts / TOTAL_PER_PAGE + 1;
+        }
+
+        Integer page = getPage(request, TOTAL_PAGES);
 
         String name = request.getParameter(PARAM_NAME);
         if (name != null && !name.equals("")) {
             try {
-                allProducts = productService.findAllProductsForUserByName(user.getId(), name);
+                products = productService.findAllProductsForUserByName(user.getId(), name);
             } catch (ServiceException e) {
                 log.error("Problem with service occurred!", e);
                 return new CommandResult(request.getHeader(CURRENT_PAGE), true);
             }
         } else {
             try {
-                allProducts = productService.findAllProductsForUser(user.getId());
+                products = productService.findAllProductsForUser(user.getId(), page, TOTAL_PER_PAGE);
             } catch (ServiceException e) {
                 log.error("Problem with service occurred!", e);
                 return new CommandResult(request.getHeader(CURRENT_PAGE), true);
             }
         }
-
-        final int TOTAL_PAGES;
-        if (allProducts.size() % TOTAL_PER_PAGE == 0) {
-            TOTAL_PAGES = allProducts.size() / TOTAL_PER_PAGE;
-        } else {
-            TOTAL_PAGES = allProducts.size() / TOTAL_PER_PAGE + 1;
-        }
-
-        Integer page = getPage(request, TOTAL_PAGES);
-        Integer start = 1 + TOTAL_PER_PAGE * (page - 1);
-        Integer end = 10 * page;
-        List<Product> products = getProducts(allProducts, start, end);
 
         request.setAttribute(PARAM_PRODUCTS, products);
         request.setAttribute(PARAM_PAGES, TOTAL_PAGES);

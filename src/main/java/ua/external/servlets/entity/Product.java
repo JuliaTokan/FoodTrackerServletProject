@@ -1,5 +1,8 @@
 package ua.external.servlets.entity;
 
+/**
+ * A model class for product database table
+ */
 public class Product extends Entity{
     private Long user_id;
     private String name;
@@ -10,10 +13,11 @@ public class Product extends Entity{
     private Double carbohydrates;
 
     private Boolean common;
+    private Boolean deleted;
 
     public Product(){}
 
-    public Product(Long id, Long user_id, String name, Integer calories, Double protein, Double fats, Double carbohydrates, Boolean common) {
+    public Product(Long id, Long user_id, String name, Integer calories, Double protein, Double fats, Double carbohydrates, Boolean common, Boolean deleted) {
         super(id);
         this.user_id = user_id;
         this.name = name;
@@ -22,6 +26,7 @@ public class Product extends Entity{
         this.fats = fats;
         this.carbohydrates = carbohydrates;
         this.common = common;
+        this.deleted = deleted;
     }
 
     public Long getUserId() {
@@ -86,5 +91,13 @@ public class Product extends Entity{
 
     public void setCommon(Boolean common) {
         this.common = common;
+    }
+
+    public Boolean getDeleted() {
+        return deleted;
+    }
+
+    public void setDeleted(Boolean deleted) {
+        this.deleted = deleted;
     }
 }

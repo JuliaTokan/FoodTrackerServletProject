@@ -1,5 +1,8 @@
 package ua.external.servlets.util.cоnst;
 
+/**
+ * Jsp constants
+ */
 public class JspConst {
     public static final String PARAM_USER = "user";
 

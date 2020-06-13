@@ -13,6 +13,9 @@ import javax.servlet.http.HttpSession;
 
 import static ua.external.servlets.util.cоnst.SessionConst.*;
 
+/**
+ * Invalidates user session.
+ */
 public class LogoutCommand implements ActionCommand {
     private static Logger log = LogManager.getLogger(LogoutCommand.class);
 

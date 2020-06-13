@@ -1,5 +1,8 @@
 package ua.external.servlets.entity;
 
+/**
+ * A model class for gender database table
+ */
 public class Gender extends Entity {
     private String gender;
 

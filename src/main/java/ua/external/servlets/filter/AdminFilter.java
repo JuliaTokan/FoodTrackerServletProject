@@ -1,7 +1,6 @@
 package ua.external.servlets.filter;
 
 import ua.external.servlets.entity.User;
-import ua.external.servlets.entity.enums.UserRole;
 import ua.external.servlets.util.cоnst.SessionConst;
 import ua.external.servlets.util.page.Page;
 
@@ -14,6 +13,11 @@ import java.io.IOException;
 
 import static java.util.Objects.nonNull;
 
+/**
+ * The {@code AdminFilter} class
+ * is an implementation of {@code Filter} interface.
+ * Checks user role.
+ */
 @WebFilter(filterName = "AdminFilter", urlPatterns = {"/admin/*"})
 public class AdminFilter implements Filter {
     @Override

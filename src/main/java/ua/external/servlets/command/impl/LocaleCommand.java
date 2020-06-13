@@ -9,6 +9,11 @@ import javax.servlet.http.HttpServletResponse;
 
 import static ua.external.servlets.util.cоnst.SessionConst.SESSION_LOCALE;
 
+/**
+ * Gets locale value from the request and
+ * sets this value as session attribute                                                                                          (if the value is not null),
+ * returns router to the same page.
+ */
 public class LocaleCommand implements ActionCommand {
     @Override
     public CommandResult execute(HttpServletRequest request, HttpServletResponse response) {

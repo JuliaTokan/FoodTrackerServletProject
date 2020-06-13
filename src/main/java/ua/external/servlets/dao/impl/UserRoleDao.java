@@ -12,6 +12,9 @@ import java.sql.SQLException;
 import java.util.List;
 import java.util.Optional;
 
+/**
+ * DAO implementation for the PostgreSQL DB
+ */
 public class UserRoleDao extends AbstractDao<Long, UserRole> implements IUserRoleDao {
     private final static String SQL_SELECT_USER__ROLE_BY_ID = "SELECT * FROM roles WHERE id = ?";
 

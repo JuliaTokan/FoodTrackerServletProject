@@ -20,6 +20,12 @@ import java.sql.Timestamp;
 
 import static ua.external.servlets.util.cоnst.JspConst.*;
 
+/**
+ * Gets meals information.
+ * Validates this values, if input data is not valid,
+ * returns router to the same page with message about invalid values.
+ * Otherwise, create meals and returns router to the same page.
+ */
 public class AddMealsCommand implements ActionCommand {
     private static Logger log = LogManager.getLogger(AddMealsCommand.class);
     private ProductService productService = new ProductService();

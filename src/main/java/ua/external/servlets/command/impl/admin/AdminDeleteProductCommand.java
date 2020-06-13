@@ -13,6 +13,10 @@ import javax.servlet.http.HttpSession;
 
 import static ua.external.servlets.util.cоnst.JspConst.*;
 
+/**
+ * Remove product by id.
+ * Returns router to the same page.
+ */
 public class AdminDeleteProductCommand implements ActionCommand {
     private static Logger log = LogManager.getLogger(AdminDeleteProductCommand.class);
     private ProductService productService = new ProductService();

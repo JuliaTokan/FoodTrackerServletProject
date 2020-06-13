@@ -11,6 +11,8 @@ import ua.external.servlets.entity.Meals;
 import ua.external.servlets.service.IMealsService;
 import ua.external.servlets.service.ServiceException;
 
+import java.sql.Timestamp;
+import java.time.LocalDate;
 import java.util.List;
 
 public class MealsService implements IMealsService {
@@ -46,6 +48,25 @@ public class MealsService implements IMealsService {
         transaction.beginNoTransaction(mealsDao);
         try {
             meals = mealsDao.findAllByUser(userId);
+        } catch (DaoException e) {
+            logger.log(Level.ERROR, "Exception while executing service", e);
+            throw new ServiceException(e);
+        } finally {
+            transaction.endNoTransaction();
+        }
+
+        return meals;
+    }
+
+    @Override
+    public List<Meals> getAllMealForUserByDate(Long userId, LocalDate date) throws ServiceException {
+        List<Meals> meals;
+        MealsDao mealsDao = new MealsDao();
+        EntityTransaction transaction = new EntityTransaction();
+
+        transaction.beginNoTransaction(mealsDao);
+        try {
+            meals = mealsDao.findAllByUserAndDay(userId, date.toString());
         } catch (DaoException e) {
             logger.log(Level.ERROR, "Exception while executing service", e);
             throw new ServiceException(e);

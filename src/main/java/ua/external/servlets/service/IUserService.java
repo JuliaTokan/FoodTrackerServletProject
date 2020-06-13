@@ -6,6 +6,9 @@ import ua.external.servlets.entity.User;
 import java.util.List;
 import java.util.Optional;
 
+/**
+ * The interface implements behavior for UserService.
+ */
 public interface IUserService {
     Optional<User> findUserByLogin(String login) throws ServiceException;
 

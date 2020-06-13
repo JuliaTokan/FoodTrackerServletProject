@@ -26,6 +26,9 @@ import java.util.stream.Collectors;
 import static ua.external.servlets.util.cоnst.JspConst.*;
 import static ua.external.servlets.util.cоnst.SessionConst.*;
 
+/**
+ * Get meals page.
+ */
 public class MealsPageCommand implements ActionCommand {
     private static Logger log = LogManager.getLogger(MealsPageCommand.class);
     private ProductService productService = new ProductService();

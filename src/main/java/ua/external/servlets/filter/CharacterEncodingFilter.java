@@ -7,6 +7,11 @@ import java.nio.charset.StandardCharsets;
 
 import static ua.external.servlets.util.cоnst.JspConst.PARAM_PASSWORD;
 
+/**
+ * The {@code EncodingFilter} class
+ * is an implementation of {@code Filter} interface.
+ * Sets character encoding UTF-8 to each request and response objects.
+ */
 @WebFilter(filterName = "CharacterEncodingFilter", urlPatterns = {"/*"})
 public class CharacterEncodingFilter implements Filter {
 

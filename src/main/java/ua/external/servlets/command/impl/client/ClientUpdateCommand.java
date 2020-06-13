@@ -23,6 +23,13 @@ import static ua.external.servlets.util.cоnst.JspConst.*;
 import static ua.external.servlets.util.cоnst.SessionConst.SESSION_CLIENT;
 import static ua.external.servlets.util.cоnst.SessionConst.SESSION_NAME;
 
+/**
+ * Gets client information.
+ * Validates this values, if input data is not valid,
+ * returns router to the same page with message about invalid values.
+ * Otherwise, edits client and returns router to the same page.
+ * Not allowed to change client id.
+ */
 public class ClientUpdateCommand implements ActionCommand {
     private static Logger log = LogManager.getLogger(ClientUpdateCommand.class);
     private ClientService clientService = new ClientService();

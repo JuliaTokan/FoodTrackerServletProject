@@ -2,12 +2,13 @@ package ua.external.servlets.validator;
 
 import java.util.regex.Pattern;
 
+/**
+ * The {@code DataValidator} class contains methods for
+ * validating an input data (data from forms).
+ */
 public class DataValidator {
-    ///^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/i;
     private final static String REGEX_CHECK_FOR_LOGIN_AS_EMAIL = "^([\\w\\-\\.]+)@([\\w\\-\\.]+)\\.([a-zA-Z]{2,5})$";
-    ///^[a-zA-Z0-9]{7,20}$/
     private final static String REGEX_CHECK_FOR_PASSWORD = "^([\\wа-яА-Я]{7,20})$";
-    //^[a-zA-Z][^#&<>\"~;$^%{}.?]{1,20}$
     private final static String REGEX_CHECK_FOR_NAME = "^[a-zA-Zа-яА-Я\\\\s]{2,20}$";
 
     private final static Integer MIN_AGE = 10;

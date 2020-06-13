@@ -3,11 +3,14 @@ package ua.external.servlets.command.factory;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import ua.external.servlets.command.ActionCommand;
-import ua.external.servlets.command.CommandEnum;
+import ua.external.servlets.command.CommandType;
 import ua.external.servlets.command.impl.EmptyCommand;
 
 import javax.servlet.http.HttpServletRequest;
 
+/**
+ * Define command.
+ */
 public class ActionFactory {
     private static Logger log = LogManager.getLogger(ActionFactory.class);
 
@@ -19,7 +22,7 @@ public class ActionFactory {
             return currentCommand;
         }
         try {
-            currentCommand = CommandEnum.getCurrentCommand(action);
+            currentCommand = CommandType.getCurrentCommand(action);
         } catch (IllegalArgumentException e) {
             request.setAttribute("wrongAction", true);
             log.info("Wrong action!");

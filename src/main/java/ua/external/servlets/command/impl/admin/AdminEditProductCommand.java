@@ -19,6 +19,13 @@ import javax.servlet.http.HttpSession;
 import static ua.external.servlets.util.cоnst.JspConst.*;
 import static ua.external.servlets.util.cоnst.JspConst.INVALID_CARBOHYDRATES;
 
+/**
+ * Gets product information.
+ * Validates this values, if input data is not valid,
+ * returns router to the same page with message about invalid values.
+ * Otherwise, edits product and returns router to the same page.
+ * Not allowed to change client id.
+ */
 public class AdminEditProductCommand implements ActionCommand {
     private static Logger log = LogManager.getLogger(AdminEditProductCommand.class);
     private ProductService productService = new ProductService();

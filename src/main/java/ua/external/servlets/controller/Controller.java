@@ -12,6 +12,11 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
+/**
+ * The {@code Controller} class is a main HttpServlet.
+ * Overrides doPost and doGet methods by calling
+ * the own method processRequest(request, response).
+ */
 @WebServlet(name = "Controller", urlPatterns = {"/locale/*", "/sign/*", "/client/*", "/user/*", "/admin/*","/info/*"})
 public class Controller extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {

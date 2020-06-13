@@ -4,6 +4,10 @@ import ua.external.servlets.entity.Activity;
 import ua.external.servlets.entity.Gender;
 import ua.external.servlets.entity.NutritionGoal;
 
+/**
+ * The {@code NutritionCalculator} class contains methods for
+ * calculating daily nutrition norm.
+ */
 public class NutritionCalculator {
     public static final Integer AVR_CALORIES = 1800;
 

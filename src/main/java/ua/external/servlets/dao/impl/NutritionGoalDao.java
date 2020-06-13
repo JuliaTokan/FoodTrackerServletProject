@@ -14,6 +14,9 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
+/**
+ * DAO implementation for the PostgreSQL DB
+ */
 public class NutritionGoalDao extends AbstractDao<Long, NutritionGoal> implements INutritionGoalDao {
     private final static String SQL_SELECT_ALL_NUTR_GOALS = "SELECT * FROM nutritionGoals";
     private final static String SQL_SELECT_NUTR_GOAL_BY_ID = "SELECT * FROM nutritionGoals WHERE id = ?";

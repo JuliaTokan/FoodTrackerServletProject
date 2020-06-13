@@ -5,6 +5,9 @@ import ua.external.servlets.entity.Client;
 import ua.external.servlets.entity.Gender;
 import ua.external.servlets.entity.NutritionGoal;
 
+/**
+ * Provide the construction of a complex object
+ */
 public class ClientBuilder {
     private Long id;
     private String name;

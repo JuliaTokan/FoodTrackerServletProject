@@ -19,7 +19,12 @@ import javax.servlet.http.HttpSession;
 import static ua.external.servlets.util.cоnst.JspConst.*;
 import static ua.external.servlets.util.cоnst.SessionConst.SESSION_CLIENT;
 import static ua.external.servlets.util.cоnst.SessionConst.SESSION_NAME;
-
+/**
+ * Gets client information.
+ * Validates this values, if input data is not valid,
+ * returns router to the same page with message about invalid values.
+ * Otherwise, create client and returns router to the same page.
+ */
 public class CreateClientInfoCommand implements ActionCommand {
     private static Logger log = LogManager.getLogger(CreateClientInfoCommand.class);
     private UserService userService = new UserService();

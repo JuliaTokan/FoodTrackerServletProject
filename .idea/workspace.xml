@@ -3,11 +3,135 @@
   <component name="AnalysisUIOptions">
     <option name="SCOPE_TYPE" value="3" />
   </component>
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="EatAndFitServletProject:war" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="6817e7cf-4007-4727-9b20-8171e7469a16" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_all_2_0_2_beta.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ua/external/servlets/filter/RegistrationFilterTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/EatAndFitServletProject_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/EatAndFitServletProject_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/My_web_app_war.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/My_web_app_war_exploded.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_h2database_h2_1_4_197.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EatAndFitServletProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/EatAndFitServletProject.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Procfile" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/external/servlets/builder/ClientBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/external/servlets/builder/ClientBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/external/servlets/builder/IBuilder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/external/servlets/builder/MealsBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/external/servlets/builder/MealsBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/external/servlets/builder/ProductBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/external/servlets/builder/ProductBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/external/servlets/builder/UserBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/external/servlets/builder/UserBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/external/servlets/command/CommandEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/external/servlets/command/CommandType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/external/servlets/command/CommandResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/external/servlets/command/CommandResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/external/servlets/command/factory/ActionFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/external/servlets/command/factory/ActionFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/external/servlets/command/impl/EmptyCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/external/servlets/command/impl/EmptyCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/external/servlets/command/impl/LocaleCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/external/servlets/command/impl/LocaleCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/external/servlets/command/impl/LoginCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/external/servlets/command/impl/LoginCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/external/servlets/command/impl/LogoutCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/external/servlets/command/impl/LogoutCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/external/servlets/command/impl/RegisterCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/external/servlets/command/impl/RegisterCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/external/servlets/command/impl/RegisterPageCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/external/servlets/command/impl/RegisterPageCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/external/servlets/command/impl/admin/AdminDeleteProductCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/external/servlets/command/impl/admin/AdminDeleteProductCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/external/servlets/command/impl/admin/AdminEditProductCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/external/servlets/command/impl/admin/AdminEditProductCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/external/servlets/command/impl/admin/AdminProductCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/external/servlets/command/impl/admin/AdminProductCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/external/servlets/command/impl/client/ClientInfoPageCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/external/servlets/command/impl/client/ClientInfoPageCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/external/servlets/command/impl/client/ClientUpdateCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/external/servlets/command/impl/client/ClientUpdateCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/external/servlets/command/impl/client/ClientUpdatePageCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/external/servlets/command/impl/client/ClientUpdatePageCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/external/servlets/command/impl/client/CreateClientInfoCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/external/servlets/command/impl/client/CreateClientInfoCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/external/servlets/command/impl/info/AboutPageCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/external/servlets/command/impl/info/AboutPageCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/external/servlets/command/impl/info/ContactsPageCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/external/servlets/command/impl/info/ContactsPageCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/external/servlets/command/impl/info/RecipesPageCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/external/servlets/command/impl/info/RecipesPageCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/external/servlets/command/impl/meals/AddMealsCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/external/servlets/command/impl/meals/AddMealsCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/external/servlets/command/impl/meals/DeleteMealsCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/external/servlets/command/impl/meals/DeleteMealsCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/external/servlets/command/impl/meals/MealsPageCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/external/servlets/command/impl/meals/MealsPageCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/external/servlets/command/impl/product/AddProductCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/external/servlets/command/impl/product/AddProductCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/external/servlets/command/impl/progress/ProgressPageCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/external/servlets/command/impl/progress/ProgressPageCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/external/servlets/controller/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/external/servlets/controller/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/external/servlets/dao/AbstractDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/external/servlets/dao/AbstractDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/external/servlets/dao/DaoException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/external/servlets/dao/DaoException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/external/servlets/dao/EntityTransaction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/external/servlets/dao/EntityTransaction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/external/servlets/dao/IActivityDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/external/servlets/dao/IActivityDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/external/servlets/dao/IClientDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/external/servlets/dao/IClientDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/external/servlets/dao/IEatPeriodDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/external/servlets/dao/IEatPeriodDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/external/servlets/dao/IGenderDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/external/servlets/dao/IGenderDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/external/servlets/dao/IMealsDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/external/servlets/dao/IMealsDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/external/servlets/dao/INutritionGoalDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/external/servlets/dao/INutritionGoalDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/external/servlets/dao/IProductDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/external/servlets/dao/IProductDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/external/servlets/dao/IUserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/external/servlets/dao/IUserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/external/servlets/dao/IUserRoleDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/external/servlets/dao/IUserRoleDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/external/servlets/dao/TableColumn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/external/servlets/dao/TableColumn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/external/servlets/dao/impl/ActivityDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/external/servlets/dao/impl/ActivityDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/external/servlets/dao/impl/ClientDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/external/servlets/dao/impl/ClientDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/external/servlets/dao/impl/EatPeriodDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/external/servlets/dao/impl/EatPeriodDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/external/servlets/dao/impl/GenderDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/external/servlets/dao/impl/GenderDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/external/servlets/dao/impl/MealsDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/external/servlets/dao/impl/MealsDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/external/servlets/dao/impl/NutritionGoalDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/external/servlets/dao/impl/NutritionGoalDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/external/servlets/dao/impl/ProductDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/external/servlets/dao/impl/ProductDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/external/servlets/dao/impl/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/external/servlets/dao/impl/UserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/external/servlets/dao/impl/UserRoleDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/external/servlets/dao/impl/UserRoleDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/external/servlets/entity/Activity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/external/servlets/entity/Activity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/external/servlets/entity/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/external/servlets/entity/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/external/servlets/entity/EatPeriod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/external/servlets/entity/EatPeriod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/external/servlets/entity/Entity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/external/servlets/entity/Entity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/external/servlets/entity/Gender.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/external/servlets/entity/Gender.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/external/servlets/entity/Meals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/external/servlets/entity/Meals.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/external/servlets/entity/NutritionGoal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/external/servlets/entity/NutritionGoal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/external/servlets/entity/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/external/servlets/entity/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/external/servlets/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/external/servlets/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/external/servlets/entity/UserRole.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/external/servlets/entity/UserRole.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/external/servlets/entity/enums/Activity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/external/servlets/entity/enums/Gender.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/external/servlets/entity/enums/NutritionGoal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/external/servlets/entity/enums/TimeMeals.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/external/servlets/entity/enums/UserRole.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/external/servlets/filter/AdminFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/external/servlets/filter/AdminFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/external/servlets/filter/AuthorizationFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/external/servlets/filter/AuthorizationFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/external/servlets/filter/CharacterEncodingFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/external/servlets/filter/CharacterEncodingFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/external/servlets/filter/RegistrationFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/external/servlets/filter/RegistrationFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/external/servlets/filter/UserFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/external/servlets/filter/UserFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/external/servlets/mail/SendEmail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/external/servlets/mail/SendEmail.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/external/servlets/pool/ConnectionCreator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/external/servlets/pool/ConnectionCreator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/external/servlets/pool/ConnectionPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/external/servlets/pool/ConnectionPool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/external/servlets/service/IActivityService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/external/servlets/service/IActivityService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/external/servlets/service/IClientService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/external/servlets/service/IClientService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/external/servlets/service/IEatPeriodService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/external/servlets/service/IEatPeriodService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/external/servlets/service/IGenderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/external/servlets/service/IGenderService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/external/servlets/service/IMealsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/external/servlets/service/IMealsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/external/servlets/service/INutritionGoalService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/external/servlets/service/INutritionGoalService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/external/servlets/service/IProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/external/servlets/service/IProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/external/servlets/service/IUserRoleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/external/servlets/service/IUserRoleService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/external/servlets/service/IUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/external/servlets/service/IUserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/external/servlets/service/impl/ClientService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/external/servlets/service/impl/ClientService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/external/servlets/service/impl/MealsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/external/servlets/service/impl/MealsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/external/servlets/service/impl/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/external/servlets/service/impl/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/external/servlets/service/impl/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/external/servlets/service/impl/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/external/servlets/sql/sql_db.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/external/servlets/sql/sql_db.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/external/servlets/util/cоnst/EmailContent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/external/servlets/util/cоnst/EmailContent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/external/servlets/util/cоnst/JspConst.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/external/servlets/util/cоnst/JspConst.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/external/servlets/util/cоnst/SessionConst.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/external/servlets/util/cоnst/SessionConst.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/external/servlets/util/nutrition/NutritionCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/external/servlets/util/nutrition/NutritionCalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/external/servlets/util/page/Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/external/servlets/util/page/Page.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/external/servlets/util/password/PasswordHashGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/external/servlets/util/password/PasswordHashGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/external/servlets/validator/DataValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/external/servlets/validator/DataValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/db/database.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db/database.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/locale/pagecontent.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/locale/pagecontent.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/log4j2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/log4j2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin_meals.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/admin_meals.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/contact.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/contact.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/header.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/progress.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/progress.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/meals.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/meals.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ua/external/servlets/service/impl/ClientServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ua/external/servlets/service/impl/ClientServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ua/external/servlets/service/impl/MealsServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ua/external/servlets/service/impl/MealsServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ua/external/servlets/service/impl/ProductServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ua/external/servlets/service/impl/ProductServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ua/external/servlets/service/impl/UserServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ua/external/servlets/service/impl/UserServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ua/external/servlets/util/password/PasswordHashGeneratorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ua/external/servlets/util/password/PasswordHashGeneratorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/db/database.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/db/database.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/db/init.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/db/init.sql" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -38,12 +162,39 @@
     <favorites_list name="My web app" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ua/external/servlets/command/impl/meals/AddMealsCommand.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="387">
-              <caret line="86" column="28" lean-forward="true" selection-start-line="86" selection-start-column="28" selection-end-line="86" selection-end-column="28" />
+            <state relative-caret-position="216">
+              <caret line="85" column="67" lean-forward="true" selection-start-line="85" selection-start-column="16" selection-end-line="85" selection-end-column="67" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ua/external/servlets/mail/SendEmail.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="344">
+              <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ua/external/servlets/util/cоnst/EmailContent.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/mail.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="36" lean-forward="true" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -54,11 +205,11 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="JavaScript File" />
-        <option value="CSS File" />
-        <option value="Jsp File" />
         <option value="Interface" />
         <option value="JUnit4 Test Class" />
+        <option value="Jsp File" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
         <option value="Class" />
       </list>
     </option>
@@ -103,57 +254,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/webapp/static/css/meals.css" />
-        <option value="$PROJECT_DIR$/src/main/webapp/static/js/meals.js" />
-        <option value="$PROJECT_DIR$/src/main/webapp/static/css/diagram.css" />
-        <option value="$PROJECT_DIR$/src/main/webapp/error.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/client_info_registration.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/admin_meals.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/meals.jsp" />
-        <option value="$PROJECT_DIR$/src/test/java/ua/external/servlets/service/impl/ProductServiceTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ua/external/servlets/service/impl/MealsServiceTest.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/static/js/validator.js" />
-        <option value="$PROJECT_DIR$/src/main/java/ua/external/servlets/validator/DataValidator.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/client_edit.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/first_registration.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/static/js/first_registration.js" />
-        <option value="$PROJECT_DIR$/src/test/java/ua/external/servlets/validator/DataValidatorTest.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/ua/external/servlets/filter/RegistrationFilter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ua/external/servlets/command/impl/LoginCommand.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ua/external/servlets/filter/CharacterEncodingFilter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ua/external/servlets/util/cоnst/EmailContent.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ua/external/servlets/mail/SendEmail.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ua/external/servlets/command/impl/RegisterCommand.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ua/external/servlets/command/impl/meals/AddMealsCommand.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ua/external/servlets/command/impl/info/RecepiesPageCommand.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ua/external/servlets/util/page/Page.java" />
         <option value="$PROJECT_DIR$/src/main/java/ua/external/servlets/command/impl/info/ContactsPageCommand.java" />
         <option value="$PROJECT_DIR$/src/main/java/ua/external/servlets/command/impl/info/AboutPageCommand.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ua/external/servlets/command/impl/info/RecipesPageCommand.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ua/external/servlets/controller/Controller.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ua/external/servlets/command/CommandEnum.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/header.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/progress.jsp" />
-        <option value="$PROJECT_DIR$/src/main/resources/locale/pagecontent.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/ua/external/servlets/command/factory/ActionFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
-        <option value="$PROJECT_DIR$/src/main/resources/locale/pagecontent_en_US.properties" />
-        <option value="$PROJECT_DIR$/src/main/webapp/footer.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/about.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/Recipes.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/contact.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/static/css/style.css" />
-        <option value="$PROJECT_DIR$/src/main/webapp/static/css/progressbar.css" />
-        <option value="$PROJECT_DIR$/src/main/java/ua/external/servlets/builder/ClientBuilder.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ua/external/servlets/util/password/PasswordHashGeneratorTest.java" />
-        <option value="$PROJECT_DIR$/src/test/resources/db/delete.sql" />
-        <option value="$PROJECT_DIR$/src/main/java/ua/external/servlets/dao/impl/UserDao.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ua/external/servlets/service/impl/UserServiceTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/external/servlets/service/IUserService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/external/servlets/service/IActivityService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/external/servlets/service/IClientService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/external/servlets/service/IEatPeriodService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/external/servlets/service/IGenderService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/external/servlets/service/INutritionGoalService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/external/servlets/service/IUserRoleService.java" />
         <option value="$PROJECT_DIR$/src/test/resources/db/database.properties" />
-        <option value="$PROJECT_DIR$/src/test/resources/db/init.sql" />
+        <option value="$PROJECT_DIR$/src/test/java/ua/external/servlets/service/impl/MealsServiceTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ua/external/servlets/service/impl/ProductServiceTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/ua/external/servlets/service/impl/ClientServiceTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/external/servlets/service/impl/UserService.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ua/external/servlets/service/impl/UserServiceTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/external/servlets/filter/AdminFilter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/external/servlets/entity/Meals.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/external/servlets/builder/MealsBuilder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/external/servlets/command/impl/meals/DeleteMealsCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/external/servlets/command/impl/meals/AddMealsCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/external/servlets/command/impl/admin/AdminDeleteProductCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/external/servlets/command/impl/LocaleCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/external/servlets/service/impl/ClientService.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/static/js/admin_product.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/admin_meals.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/header.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/external/servlets/command/impl/meals/MealsPageCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/static/js/meals.js" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/external/servlets/dao/impl/MealsDao.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/static/js/statistic.js" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/external/servlets/controller/GetWeekInfo.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/static/css/statistic.css" />
+        <option value="$PROJECT_DIR$/src/main/webapp/statistic.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/external/servlets/entity/Activity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/external/servlets/entity/Client.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/external/servlets/sql/sql_db.sql" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/external/servlets/entity/Product.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/external/servlets/builder/ProductBuilder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/external/servlets/dao/TableColumn.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/external/servlets/command/impl/product/AddProductCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/external/servlets/service/IProductService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/external/servlets/service/impl/ProductService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/external/servlets/command/impl/admin/AdminProductCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/external/servlets/dao/IProductDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/external/servlets/controller/StatisticController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/progress.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/external/servlets/command/impl/progress/ProgressPageCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/external/servlets/service/impl/MealsService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/external/servlets/service/IMealsService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/external/servlets/dao/impl/ProductDao.java" />
       </list>
     </option>
   </component>
@@ -175,10 +326,11 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="y" value="58" />
-    <option name="width" value="1280" />
-    <option name="height" value="732" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="63" />
+    <option name="y" value="23" />
+    <option name="width" value="1258" />
+    <option name="height" value="727" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -194,6 +346,39 @@
               <item name="EatAndFitServletProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="EatAndFitServletProject" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="EatAndFitServletProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EatAndFitServletProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EatAndFitServletProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EatAndFitServletProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EatAndFitServletProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EatAndFitServletProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EatAndFitServletProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EatAndFitServletProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="servlets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EatAndFitServletProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EatAndFitServletProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -205,7 +390,7 @@
     <property name="DatabaseDriversLRU" value="postgresql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1588963812885" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1592073787530" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="create.test.in.the.same.root" value="true" />
@@ -213,9 +398,9 @@
     <property name="full.screen.before.presentation.mode" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
   <component name="RecentsManager">
@@ -223,6 +408,8 @@
       <recent name="ua.external.servlets.service" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="ua.external.servlets.dao.impl" />
+      <recent name="ua.external.servlets.filter" />
       <recent name="ua.external.servlets.service.impl" />
       <recent name="ua.external.servlets.util.password" />
       <recent name="ua.external.servlets.validator" />
@@ -230,24 +417,24 @@
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/test" />
-      <recent name="$PROJECT_DIR$/src/main/webapp/static/img" />
-      <recent name="$PROJECT_DIR$/src/main/webapp/static/img/gradient" />
-      <recent name="$PROJECT_DIR$/src/main/webapp/static/img/banner" />
-      <recent name="$PROJECT_DIR$/src/main/webapp" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="ua.external.servlets.controller" />
-      <recent name="ua.external.servlets.entity" />
-      <recent name="ua.external.servlets.filter" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/src/main/webapp/static/img/gradient" />
       <recent name="$PROJECT_DIR$/src/main/webapp" />
       <recent name="$PROJECT_DIR$/src/main/webapp/static/img" />
       <recent name="$PROJECT_DIR$/src/main" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ua.external.servlets.controller" />
+      <recent name="ua.external.servlets.entity" />
+      <recent name="ua.external.servlets.filter" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/locale" />
+      <recent name="$PROJECT_DIR$/src/test" />
+      <recent name="$PROJECT_DIR$/src/main/webapp/static/img" />
+      <recent name="$PROJECT_DIR$/src/main/webapp/static/img/gradient" />
+      <recent name="$PROJECT_DIR$/src/main/webapp/static/img/banner" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -302,58 +489,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ClientServiceTest.findClientById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="EatAndFitServletProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ua.external.servlets.service.impl.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ua.external.servlets.service.impl" />
-      <option name="MAIN_CLASS_NAME" value="ua.external.servlets.service.impl.ClientServiceTest" />
-      <option name="METHOD_NAME" value="findClientById" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DataValidatorTest.validatePassword" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="EatAndFitServletProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ua.external.servlets.validator.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ua.external.servlets.validator" />
-      <option name="MAIN_CLASS_NAME" value="ua.external.servlets.validator.DataValidatorTest" />
-      <option name="METHOD_NAME" value="validatePassword" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PasswordHashGeneratorTest.hash" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="EatAndFitServletProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ua.external.servlets.util.password.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ua.external.servlets.util.password" />
-      <option name="MAIN_CLASS_NAME" value="ua.external.servlets.util.password.PasswordHashGeneratorTest" />
-      <option name="METHOD_NAME" value="hash" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserServiceTest.createUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UserServiceTest.countCalories" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="EatAndFitServletProject" />
       <extension name="coverage">
         <pattern>
@@ -363,14 +499,14 @@
       </extension>
       <option name="PACKAGE_NAME" value="ua.external.servlets.service.impl" />
       <option name="MAIN_CLASS_NAME" value="ua.external.servlets.service.impl.UserServiceTest" />
-      <option name="METHOD_NAME" value="createUser" />
+      <option name="METHOD_NAME" value="countCalories" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserServiceTest.findUserByLogin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UserServiceTest.countCarbohydrates" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="EatAndFitServletProject" />
       <extension name="coverage">
         <pattern>
@@ -380,7 +516,58 @@
       </extension>
       <option name="PACKAGE_NAME" value="ua.external.servlets.service.impl" />
       <option name="MAIN_CLASS_NAME" value="ua.external.servlets.service.impl.UserServiceTest" />
-      <option name="METHOD_NAME" value="findUserByLogin" />
+      <option name="METHOD_NAME" value="countCarbohydrates" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceTest.countFats" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="EatAndFitServletProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ua.external.servlets.service.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ua.external.servlets.service.impl" />
+      <option name="MAIN_CLASS_NAME" value="ua.external.servlets.service.impl.UserServiceTest" />
+      <option name="METHOD_NAME" value="countFats" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceTest.countProtein" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="EatAndFitServletProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ua.external.servlets.service.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ua.external.servlets.service.impl" />
+      <option name="MAIN_CLASS_NAME" value="ua.external.servlets.service.impl.UserServiceTest" />
+      <option name="METHOD_NAME" value="countProtein" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceTest.findAllUserProducts" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="EatAndFitServletProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ua.external.servlets.service.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ua.external.servlets.service.impl" />
+      <option name="MAIN_CLASS_NAME" value="ua.external.servlets.service.impl.UserServiceTest" />
+      <option name="METHOD_NAME" value="findAllUserProducts" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
@@ -516,13 +703,42 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Heroku Deployment" type="heroku-deploy" factoryName="Heroku Deployment" server-name="Heroku">
+      <deployment type="module" name="EatAndFitServletProject">
+        <settings>
+          <option name="host" value="" />
+        </settings>
+      </deployment>
+      <method v="2">
+        <option name="BuildArtifacts" enabled="false" />
+      </method>
+    </configuration>
+    <configuration default="true" type="heroku-deploy" factoryName="Heroku Deployment" server-name="Heroku">
+      <deployment type="module" name="EatAndFitServletProject">
+        <settings>
+          <option name="host" value="" />
+        </settings>
+      </deployment>
+      <method v="2">
+        <option name="BuildArtifacts" enabled="false" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Heroku Deployment.Heroku Deployment" />
+      <item itemvalue="JUnit.UserServiceTest.countCalories" />
+      <item itemvalue="JUnit.UserServiceTest.countProtein" />
+      <item itemvalue="JUnit.UserServiceTest.countFats" />
+      <item itemvalue="JUnit.UserServiceTest.findAllUserProducts" />
+      <item itemvalue="JUnit.UserServiceTest.countCarbohydrates" />
+      <item itemvalue="Maven.Tomcat" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ClientServiceTest.findClientById" />
-        <item itemvalue="JUnit.UserServiceTest.findUserByLogin" />
-        <item itemvalue="JUnit.UserServiceTest.createUser" />
-        <item itemvalue="JUnit.PasswordHashGeneratorTest.hash" />
-        <item itemvalue="JUnit.DataValidatorTest.validatePassword" />
+        <item itemvalue="JUnit.UserServiceTest.countFats" />
+        <item itemvalue="JUnit.UserServiceTest.countCarbohydrates" />
+        <item itemvalue="JUnit.UserServiceTest.findAllUserProducts" />
+        <item itemvalue="JUnit.UserServiceTest.countProtein" />
+        <item itemvalue="JUnit.UserServiceTest.countCalories" />
       </list>
     </recent_temporary>
   </component>
@@ -560,44 +776,49 @@
       <workItem from="1588940407150" duration="203000" />
       <workItem from="1588940667380" duration="1000" />
       <workItem from="1588940752931" duration="2000" />
-      <workItem from="1588960203992" duration="994000" />
+      <workItem from="1588960203992" duration="3413000" />
+      <workItem from="1588966483496" duration="11690000" />
+      <workItem from="1589139821011" duration="19580000" />
+      <workItem from="1589486735838" duration="12692000" />
+      <workItem from="1589747239499" duration="16325000" />
+      <workItem from="1591042725436" duration="33217000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ClientServiceTest_findClientById - 2020.05.08 at 13h 29m 59s.xml">
+    <history-entry file="ClientServiceTest_findClientById - 2020.05.11 at 15h 04m 09s.xml">
       <configuration name="ClientServiceTest.findClientById" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ClientServiceTest_findClientById - 2020.05.08 at 13h 32m 15s.xml">
+    <history-entry file="ClientServiceTest_findClientById - 2020.05.11 at 15h 06m 20s.xml">
       <configuration name="ClientServiceTest.findClientById" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ClientServiceTest_findClientById - 2020.05.08 at 13h 32m 45s.xml">
-      <configuration name="ClientServiceTest.findClientById" configurationId="JUnit" />
+    <history-entry file="UserServiceTest_createUser - 2020.05.11 at 15h 08m 40s.xml">
+      <configuration name="UserServiceTest.createUser" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ClientServiceTest_findClientById - 2020.05.08 at 13h 35m 12s.xml">
-      <configuration name="ClientServiceTest.findClientById" configurationId="JUnit" />
+    <history-entry file="UserServiceTest_findUserByLogin - 2020.05.11 at 15h 10m 04s.xml">
+      <configuration name="UserServiceTest.findUserByLogin" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ClientServiceTest_findClientById - 2020.05.08 at 13h 39m 12s.xml">
-      <configuration name="ClientServiceTest.findClientById" configurationId="JUnit" />
+    <history-entry file="UserServiceTest_countCalories - 2020.05.11 at 15h 11m 52s.xml">
+      <configuration name="UserServiceTest.countCalories" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ClientServiceTest_findClientById - 2020.05.08 at 13h 39m 38s.xml">
-      <configuration name="ClientServiceTest.findClientById" configurationId="JUnit" />
+    <history-entry file="UserServiceTest_countProtein - 2020.05.11 at 15h 13m 35s.xml">
+      <configuration name="UserServiceTest.countProtein" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ClientServiceTest_findClientById - 2020.05.08 at 13h 40m 24s.xml">
-      <configuration name="ClientServiceTest.findClientById" configurationId="JUnit" />
+    <history-entry file="UserServiceTest_findAllUserProducts - 2020.05.11 at 15h 14m 45s.xml">
+      <configuration name="UserServiceTest.findAllUserProducts" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ClientServiceTest_findClientById - 2020.05.08 at 13h 42m 11s.xml">
-      <configuration name="ClientServiceTest.findClientById" configurationId="JUnit" />
+    <history-entry file="UserServiceTest_countCarbohydrates - 2020.05.11 at 15h 16m 06s.xml">
+      <configuration name="UserServiceTest.countCarbohydrates" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ClientServiceTest_findClientById - 2020.05.08 at 13h 43m 42s.xml">
-      <configuration name="ClientServiceTest.findClientById" configurationId="JUnit" />
+    <history-entry file="UserServiceTest_countFats - 2020.05.11 at 15h 16m 21s.xml">
+      <configuration name="UserServiceTest.countFats" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ClientServiceTest_findClientById - 2020.05.08 at 13h 44m 15s.xml">
-      <configuration name="ClientServiceTest.findClientById" configurationId="JUnit" />
+    <history-entry file="UserServiceTest_countFats - 2020.05.11 at 15h 16m 44s.xml">
+      <configuration name="UserServiceTest.countFats" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="393685000" />
+    <option name="totallyTimeSpent" value="489608000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -609,34 +830,34 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="58" width="1280" height="732" extended-state="0" />
+    <frame x="63" y="23" width="1258" height="727" extended-state="1" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7809524" visible="true" weight="0.23828755" />
-      <window_info id="Structure" order="1" sideWeight="0.4927769" weight="0.24798061" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.776378" visible="true" weight="0.25904605" />
+      <window_info id="Structure" order="1" sideWeight="0.4927769" weight="0.24753289" />
       <window_info id="Designer" order="2" />
       <window_info id="Nl-Palette" order="3" />
-      <window_info id="Favorites" order="4" sideWeight="0.21904762" side_tool="true" weight="0.2914485" />
+      <window_info id="Favorites" order="4" sideWeight="0.22362205" side_tool="true" visible="true" weight="0.25904605" />
       <window_info id="Image Layers" order="5" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="UI Designer" order="7" />
       <window_info id="Web" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Application Servers" weight="0.3296875" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32744783" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.4625" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.25682184" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.43464568" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.25669292" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32744783" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.328125" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32755905" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.2980614" side_tool="true" weight="0.32715008" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.321875" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.31811023" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.328125" />
       <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Console" order="14" weight="0.3296355" />
+      <window_info anchor="bottom" id="Application Servers" order="15" sideWeight="0.7019386" weight="0.35581788" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -708,62 +929,404 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/client_edit.jsp" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/client_info_registration.jsp" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/js/first_registration.js" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/ua/external/servlets/validator/DataValidatorTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/external/servlets/filter/RegistrationFilter.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/external/servlets/command/impl/LoginCommand.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/external/servlets/util/cоnst/EmailContent.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/external/servlets/mail/SendEmail.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/external/servlets/command/impl/RegisterCommand.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/external/servlets/command/impl/meals/AddMealsCommand.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/external/servlets/command/impl/RegisterPageCommand.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/external/servlets/util/page/Page.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/external/servlets/command/impl/info/ContactsPageCommand.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/external/servlets/command/impl/info/AboutPageCommand.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/external/servlets/command/impl/info/RecipesPageCommand.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/external/servlets/command/ActionCommand.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/external/servlets/filter/CharacterEncodingFilter.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/external/servlets/controller/Controller.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/progress.jsp" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/external/servlets/command/CommandEnum.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/header.jsp" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/locale/pagecontent.properties" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/external/servlets/command/factory/ActionFactory.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/footer.jsp" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/first_registration.jsp" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/blog.jsp" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/css/style.css" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/locale/pagecontent_en_US.properties" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/css/progressbar.css" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/about.jsp" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/Recipes.jsp" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/contact.jsp" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/external/servlets/builder/ClientBuilder.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/ua/external/servlets/service/impl/MealsServiceTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/external/servlets/dao/EntityTransaction.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/external/servlets/pool/ConnectionPool.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/ua/external/servlets/util/password/PasswordHashGeneratorTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/external/servlets/entity/User.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/resources/db/delete.sql" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/external/servlets/sql/sql_db.sql" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/external/servlets/service/impl/UserService.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/external/servlets/dao/impl/UserDao.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/ua/external/servlets/service/impl/UserServiceTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/ua/external/servlets/service/impl/ClientServiceTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/resources/db/init.sql" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/external/servlets/dao/impl/ClientDao.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/resources/db/database.properties" />
-    <entry file="file://$PROJECT_DIR$/EatAndFitServletProject.iml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/external/servlets/command/impl/LogoutCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/first_registration.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1341">
+          <caret line="151" column="38" lean-forward="true" selection-start-line="151" selection-start-column="38" selection-end-line="151" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/external/servlets/command/impl/meals/DeleteMealsCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="38" column="48" selection-start-line="38" selection-start-column="48" selection-end-line="38" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/external/servlets/command/impl/LocaleCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/external/servlets/command/impl/admin/AdminEditProductCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-876">
+          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/external/servlets/command/impl/client/ClientUpdateCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/external/servlets/dao/impl/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/external/servlets/service/impl/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="107" column="58" selection-start-line="107" selection-start-column="58" selection-end-line="107" selection-end-column="58" />
+          <folding>
+            <element signature="method#findUserByLogin#0;class#UserService#0" />
+            <element signature="method#updateUser#0;class#UserService#0" />
+            <element signature="method#countProtein#0;class#UserService#0" />
+            <element signature="method#countFats#0;class#UserService#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/js/admin_product.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="496">
+          <caret line="95" selection-start-line="95" selection-end-line="95" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/admin_meals.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="380" column="41" selection-start-line="380" selection-start-column="41" selection-end-line="380" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/external/servlets/service/impl/ClientService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="15" column="56" selection-start-line="15" selection-start-column="56" selection-end-line="15" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/header.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="71" column="45" selection-start-line="71" selection-start-column="45" selection-end-line="71" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/external/servlets/entity/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/external/servlets/command/impl/client/CreateClientInfoCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="77" column="89" selection-start-line="77" selection-start-column="20" selection-end-line="77" selection-end-column="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/contact.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="498">
+          <caret line="114" column="7" lean-forward="true" selection-end-line="114" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/js/meals.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="67" column="8" selection-start-line="67" selection-start-column="8" selection-end-line="67" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/external/servlets/controller/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="21" column="4" lean-forward="true" selection-start-line="21" selection-start-column="4" selection-end-line="23" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/db/database.properties">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/external/servlets/entity/Meals.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="36" lean-forward="true" selection-start-column="36" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/external/servlets/controller/old/MealsServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="51" column="51" lean-forward="true" selection-start-line="51" selection-start-column="8" selection-end-line="51" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/external/servlets/controller/GetWeekInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="24" column="34" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="60" selection-start-line="60" selection-end-line="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/external/servlets/entity/Activity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="43" column="37" selection-start-line="43" selection-start-column="37" selection-end-line="43" selection-end-column="37" />
+          <folding>
+            <element signature="e#829#830#0" expanded="true" />
+            <element signature="e#875#876#0" expanded="true" />
+            <element signature="e#1281#1282#0" expanded="true" />
+            <element signature="e#1339#1340#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/external/servlets/entity/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="498">
+          <caret line="134" lean-forward="true" selection-start-line="134" selection-end-line="134" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/external/servlets/sql/sql_db.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="37" column="25" selection-start-line="37" selection-start-column="25" selection-end-line="37" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/external/servlets/builder/ProductBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="505">
+          <caret line="60" column="20" selection-start-line="60" selection-start-column="20" selection-end-line="60" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/external/servlets/dao/TableColumn.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="59" lean-forward="true" selection-start-line="14" selection-start-column="59" selection-end-line="14" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/external/servlets/command/impl/admin/AdminDeleteProductCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="28" column="13" lean-forward="true" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/external/servlets/service/IProductService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="25" column="4" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/external/servlets/dao/IProductDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="15" column="109" selection-start-line="15" selection-start-column="109" selection-end-line="15" selection-end-column="109" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/external/servlets/controller/StatisticController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/meals.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="367">
+          <caret line="109" column="41" lean-forward="true" selection-start-line="109" selection-start-column="41" selection-end-line="109" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/external/servlets/entity/Product.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="945">
+          <caret line="95" column="33" selection-start-line="95" selection-start-column="33" selection-end-line="95" selection-end-column="33" />
+          <folding>
+            <element signature="e#2060#2061#0" expanded="true" />
+            <element signature="e#2107#2108#0" expanded="true" />
+            <element signature="e#2145#2146#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/external/servlets/service/impl/ProductService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-117">
+          <caret line="142" column="13" lean-forward="true" selection-start-line="142" selection-start-column="13" selection-end-line="142" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/external/servlets/service/IMealsService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="17" column="93" selection-start-line="17" selection-start-column="93" selection-end-line="17" selection-end-column="93" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/js/statistic.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/css/statistic.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="19" lean-forward="true" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/external/servlets/dao/impl/MealsDao.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="387">
-          <caret line="86" column="28" lean-forward="true" selection-start-line="86" selection-start-column="28" selection-end-line="86" selection-end-column="28" />
+          <caret line="95" column="63" selection-start-line="95" selection-start-column="52" selection-end-line="95" selection-end-column="63" />
+          <folding>
+            <element signature="method#findAll#0;class#MealsDao#0" />
+            <element signature="method#findById#0;class#MealsDao#0" />
+            <element signature="method#findAllByUser#0;class#MealsDao#0" />
+            <element signature="method#create#0;class#MealsDao#0" />
+            <element signature="method#update#0;class#MealsDao#0" />
+            <element signature="method#delete#0;class#MealsDao#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/statistic.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="38" column="4" selection-start-line="38" selection-start-column="4" selection-end-line="38" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/external/servlets/dao/impl/ProductDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="233" column="27" selection-start-line="233" selection-start-column="27" selection-end-line="233" selection-end-column="27" />
+          <folding>
+            <element signature="method#findAll#0;class#ProductDao#0" />
+            <element signature="method#findAllForUser#0;class#ProductDao#0" />
+            <element signature="method#findById#0;class#ProductDao#0" />
+            <element signature="method#create#0;class#ProductDao#0" />
+            <element signature="method#update#0;class#ProductDao#0" />
+            <element signature="method#deleteById#0;class#ProductDao#0" />
+            <element signature="method#findUsersProducts#0;class#ProductDao#0" />
+            <element signature="method#findAllForUserByName#0;class#ProductDao#0" />
+            <element signature="method#extractProduct#0;class#ProductDao#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/external/servlets/command/impl/admin/AdminProductCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="54" column="9" lean-forward="true" selection-start-line="50" selection-start-column="8" selection-end-line="54" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/external/servlets/util/cоnst/JspConst.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="84" column="4" lean-forward="true" selection-start-line="84" selection-start-column="4" selection-end-line="84" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/progress.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3225">
+          <caret line="215" column="13" lean-forward="true" selection-start-line="215" selection-start-column="13" selection-end-line="215" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/external/servlets/service/impl/MealsService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="65" lean-forward="true" selection-start-line="65" selection-end-line="65" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/external/servlets/command/impl/progress/ProgressPageCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="80" column="84" lean-forward="true" selection-start-line="80" selection-start-column="49" selection-end-line="80" selection-end-column="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/external/servlets/command/impl/product/AddProductCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="113" column="34" lean-forward="true" selection-start-line="113" selection-start-column="34" selection-end-line="113" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/external/servlets/command/impl/meals/MealsPageCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="50" column="62" selection-start-line="50" selection-start-column="62" selection-end-line="50" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/external/servlets/command/impl/meals/AddMealsCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="85" column="67" lean-forward="true" selection-start-line="85" selection-start-column="16" selection-end-line="85" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/external/servlets/mail/SendEmail.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="344">
+          <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/external/servlets/util/cоnst/EmailContent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mail.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="36" lean-forward="true" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
         </state>
       </provider>
     </entry>
@@ -773,7 +1336,7 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
-          <last-edited>My web app:war</last-edited>
+          <last-edited>EatAndFitServletProject:war</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -821,7 +1384,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>My web app</last-edited>
+          <last-edited>EatAndFitServletProject</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

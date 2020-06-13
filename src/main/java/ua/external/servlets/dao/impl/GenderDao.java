@@ -14,6 +14,9 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
+/**
+ * DAO implementation for the PostgreSQL DB
+ */
 public class GenderDao extends AbstractDao<Long, Gender> implements IGenderDao {
     private final static String SQL_SELECT_ALL_GENDERS = "SELECT * FROM genders";
     private final static String SQL_SELECT_GENDER_BY_ID = "SELECT * FROM genders WHERE id = ?";

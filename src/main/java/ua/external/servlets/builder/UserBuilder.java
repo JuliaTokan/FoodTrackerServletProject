@@ -3,6 +3,9 @@ package ua.external.servlets.builder;
 import ua.external.servlets.entity.User;
 import ua.external.servlets.entity.UserRole;
 
+/**
+ * Provide the construction of a complex object
+ */
 public class UserBuilder {
     private Long id;
     private String login;

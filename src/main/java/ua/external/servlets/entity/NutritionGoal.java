@@ -1,5 +1,8 @@
 package ua.external.servlets.entity;
 
+/**
+ * A model class for nutrition goal database table
+ */
 public class NutritionGoal extends Entity{
     private String goal;
     private Double coefficient;

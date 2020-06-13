@@ -8,6 +8,9 @@ import java.sql.Statement;
 import java.util.List;
 import java.util.Optional;
 
+/**
+ * Basic class used for extending DAO that provide basic behavior
+ */
 public abstract class AbstractDao<K, T extends Entity> {
     protected Connection connection;
 

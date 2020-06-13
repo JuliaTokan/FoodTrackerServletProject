@@ -139,4 +139,45 @@ public class ProductService implements IProductService {
 
         return products;
     }
+
+    @Override
+    public int getNumberOfRows(Long userId) throws ServiceException {
+        int num = 0;
+        ProductDao productDao = new ProductDao();
+        EntityTransaction transaction = new EntityTransaction();
+
+        transaction.beginNoTransaction(productDao);
+        try {
+            num = productDao.getNumberOfRows(userId);
+        } catch (DaoException e) {
+            logger.log(Level.ERROR, "Exception while executing service", e);
+            throw new ServiceException(e);
+        } finally {
+            transaction.endNoTransaction();
+        }
+
+        return num;
+    }
+
+    @Override
+    public List<Product> findAllProductsForUser(Long userId, int currentPage, int recordsPerPage) throws ServiceException {
+        List<Product> products;
+
+        ProductDao productDao = new ProductDao();
+        EntityTransaction transaction = new EntityTransaction();
+
+        transaction.beginNoTransaction(productDao);
+        try {
+            products = productDao.findAllByPageForUser(userId, currentPage, recordsPerPage);
+        } catch (DaoException e) {
+            logger.log(Level.ERROR, "Exception while executing service", e);
+            throw new ServiceException(e);
+        } finally {
+            transaction.endNoTransaction();
+        }
+
+        return products;
+    }
+
+    //@Override
 }

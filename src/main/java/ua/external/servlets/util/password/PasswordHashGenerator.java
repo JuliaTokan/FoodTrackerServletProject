@@ -1,11 +1,19 @@
 package ua.external.servlets.util.password;
 
+import org.apache.logging.log4j.Level;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
 import java.io.UnsupportedEncodingException;
 import java.math.BigInteger;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 
+/**
+ * Generate SHA-1 string for password
+ */
 public class PasswordHashGenerator {
+    final static Logger logger = LogManager.getLogger();
     private final static String ALGORITHM = "SHA-1";
     private final static String CHARSET = "utf-8";
     private final static int SIGNUM = 1;
@@ -17,7 +25,7 @@ public class PasswordHashGenerator {
             messageDigest.update(password.getBytes(CHARSET));
             bytes = messageDigest.digest();
         } catch (NoSuchAlgorithmException | UnsupportedEncodingException e) {
-            //logger.log(Level.ERROR, "Hashing password error", e);
+            logger.log(Level.ERROR, "Hashing password error", e);
         }
         BigInteger bigInteger = new BigInteger(SIGNUM, bytes);
         return bigInteger.toString(RADIX);

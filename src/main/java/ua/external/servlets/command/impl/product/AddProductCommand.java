@@ -17,6 +17,12 @@ import javax.servlet.http.HttpSession;
 
 import static ua.external.servlets.util.cоnst.JspConst.*;
 
+/**
+ * Gets product information.
+ * Validates this values, if input data is not valid,
+ * returns router to the same page with message about invalid values.
+ * Otherwise, create product and returns router to the same page.
+ */
 public class AddProductCommand implements ActionCommand {
     private static Logger log = LogManager.getLogger(AddProductCommand.class);
     private ProductService productService = new ProductService();
@@ -105,6 +111,7 @@ public class AddProductCommand implements ActionCommand {
                 .setFats(fats)
                 .setCarbohydrates(carbohydrates)
                 .setCommon(isPublic)
+                .setDeleted(false)
                 .createProduct();
     }
 }

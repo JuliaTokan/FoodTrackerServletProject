@@ -1,5 +1,8 @@
 package ua.external.servlets.dao;
 
+/**
+ * Custom checked exception type which is to be throws in DAO layer.
+ */
 public class DaoException extends Exception {
     public DaoException() {
     }

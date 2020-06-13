@@ -1,13 +1,17 @@
 package ua.external.servlets.command.impl.progress;
 
+import com.fasterxml.jackson.core.JsonProcessingException;
+import com.fasterxml.jackson.databind.ObjectMapper;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import ua.external.servlets.command.ActionCommand;
 import ua.external.servlets.command.CommandResult;
 import ua.external.servlets.entity.Client;
+import ua.external.servlets.entity.Meals;
 import ua.external.servlets.entity.User;
 import ua.external.servlets.service.ServiceException;
 import ua.external.servlets.service.impl.ClientService;
+import ua.external.servlets.service.impl.MealsService;
 import ua.external.servlets.service.impl.UserService;
 import ua.external.servlets.util.nutrition.NutritionCalculator;
 import ua.external.servlets.util.page.Page;
@@ -16,13 +20,23 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
+import java.time.LocalDate;
+import java.util.HashMap;
+import java.util.LinkedHashMap;
+import java.util.List;
+
 import static ua.external.servlets.util.cоnst.JspConst.*;
 import static ua.external.servlets.util.cоnst.SessionConst.SESSION_USER;
 
+/**
+ * Get progress page.
+ */
 public class ProgressPageCommand implements ActionCommand {
     private static Logger log = LogManager.getLogger(ProgressPageCommand.class);
     private UserService userService = new UserService();
     private ClientService clientService = new ClientService();
+    private MealsService mealsService = new MealsService();
+    private static final int WEEK = 7;
 
     @Override
     public CommandResult execute(HttpServletRequest request, HttpServletResponse response) {
@@ -51,6 +65,25 @@ public class ProgressPageCommand implements ActionCommand {
                 maxProtein = client.getProtein().intValue();
                 maxFats = client.getFats().intValue();
                 maxCarbohydrates = client.getCarbohydrates().intValue();
+            }
+
+            try {
+                LocalDate cur_date = LocalDate.now();
+                HashMap<String, Integer> weekInfo = new LinkedHashMap<>();
+
+                for(int i = 0; i<WEEK; i++){
+                    LocalDate date = cur_date.minusDays(i);
+                    List<Meals> meals = mealsService.getAllMealForUserByDate(user.getId(), date);
+                    Integer numOfCalories = meals.stream().mapToInt(x->x.getProduct().getCalories()*x.getWeight()/100).sum();
+                    weekInfo.put(date.toString(), numOfCalories);
+                }
+                ObjectMapper mapper = new ObjectMapper();
+                request.setAttribute("weekInfo", mapper.writeValueAsString(weekInfo));
+
+            } catch (ServiceException e) {
+                e.printStackTrace();
+            } catch (JsonProcessingException e) {
+                e.printStackTrace();
             }
 
             request.setAttribute(CURRENT_CALORIES, currentCalories);

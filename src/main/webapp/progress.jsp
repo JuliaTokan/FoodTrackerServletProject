@@ -51,6 +51,7 @@
     <link rel="stylesheet" href="/static/css/diagram.css">
     <link rel="stylesheet" href="/static/css/progressbar.css">
     <link rel="stylesheet" href="/static/css/circle.scss">
+    <link rel="stylesheet" href="/static/css/statistic.css">
 </head>
 
 <body>
@@ -147,6 +148,13 @@
             </div>
         </div>
     </div>
+
+    <div class="content">
+        <div class="chart1">
+            <canvas id="chart2"></canvas>
+        </div>
+    </div>
+
 </div>
 <!-- slider_area_end -->
 
@@ -181,6 +189,43 @@
 
 <script src="/static/js/main.js"></script>
 <script src="/static/js/progressbar.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
+<script>
+    var chart2el = document.getElementById("chart2").getContext('2d');
+
+    var info = '${weekInfo}';
+    //alert(Object.keys(JSON.parse(info)));
+
+    var chart2 = new Chart(chart2el, {
+        type: 'bar',
+        data: {
+            labels: Object.keys(JSON.parse(info)).reverse(),
+            datasets: [
+                {
+                    label: "Calories: ",
+                    backgroundColor: ["#E289FF", "#FD96FF","#FF89A6","#FFA789", "#E289FF", "#FD96FF","#FF89A6"],
+                    data: Object.values(JSON.parse(info)).reverse()
+                },
+                {
+                    label: 'Daily norma calories',
+                    fill: false,
+                    data: [1500, 1500, 1500, 1500, 1500, 1500, 1500],
+                    type: 'line'
+                }
+            ]
+        },
+        options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            legend: { display: false },
+            title: {
+                display: true,
+                text: 'A month chart'
+            }
+        }
+    });
+</script>
 </body>
 
 </html>

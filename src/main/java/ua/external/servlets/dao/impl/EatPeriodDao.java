@@ -14,6 +14,9 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
+/**
+ * DAO implementation for the PostgreSQL DB
+ */
 public class EatPeriodDao extends AbstractDao<Long, EatPeriod> implements IEatPeriodDao {
     private final static String SQL_SELECT_ALL_EAT_PERIODS = "SELECT * FROM eatPeriods";
     private final static String SQL_SELECT_EAT_PERIOD_BY_ID = "SELECT * FROM eatPeriods WHERE id = ?";

@@ -24,6 +24,9 @@ import java.util.List;
 import static ua.external.servlets.util.cоnst.JspConst.*;
 import static ua.external.servlets.util.cоnst.SessionConst.*;
 
+/**
+ * Get client edit page
+ */
 public class ClientUpdatePageCommand implements ActionCommand {
     private static Logger log = LogManager.getLogger(ClientUpdatePageCommand.class);
     private GenderService genderService = new GenderService();

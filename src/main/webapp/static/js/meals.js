@@ -63,7 +63,7 @@ $(document).on('click', function (event) {
 
 function filter(){
     var valThis = $('#txtSearchValue').val();
-    $('.dropdown-select ul > li').each(function(){
+    $('.select-food ul > li').each(function(){
         var text = $(this).text();
         (text.toLowerCase().indexOf(valThis.toLowerCase()) > -1) ? $(this).show() : $(this).hide();
     });

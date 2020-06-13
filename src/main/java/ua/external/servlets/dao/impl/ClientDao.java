@@ -19,6 +19,9 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
+/**
+ * DAO implementation for the PostgreSQL DB
+ */
 public class ClientDao extends AbstractDao<Long, Client> implements IClientDao {
     private final static String SQL_SELECT_ALL_CLIENTS = "SELECT * FROM clients";
     private final static String SQL_SELECT_CLIENT_BY_ID = "SELECT * FROM clients WHERE id = ?";

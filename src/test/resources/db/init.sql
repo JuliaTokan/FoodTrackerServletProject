@@ -68,3 +68,6 @@ CREATE TABLE eatPeriods (
                           period VARCHAR(30) NOT NULL
 );
 
+INSERT INTO users (login, password, role_id) VALUES ('yulia.tokan.11@gmail.com', '71679e6aa9d4a0b81beb5da7de44ac2aba26696d', 2) RETURNING id;
+
+INSERT INTO nutritionGoals (goal, coefficient) VALUES ('Weight Gain', 1.2);

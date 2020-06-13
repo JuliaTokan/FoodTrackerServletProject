@@ -74,5 +74,4 @@ public class ClientService implements IClientService {
         }
         return optionalClient;
     }
-
 }

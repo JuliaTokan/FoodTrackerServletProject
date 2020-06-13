@@ -8,6 +8,10 @@ import javax.servlet.http.HttpServletResponse;
 
 import static ua.external.servlets.util.page.Page.WELCOME_PAGE;
 
+/**
+ * Gets welcome page
+ */
+
 public class EmptyCommand implements ActionCommand {
     @Override
     public CommandResult execute(HttpServletRequest request, HttpServletResponse response) {

@@ -11,6 +11,19 @@ import java.util.concurrent.Semaphore;
 import java.util.concurrent.atomic.AtomicBoolean;
 import java.util.concurrent.locks.ReentrantLock;
 
+/**
+ * The {@code ConnectionPool} class has private Deque in which
+ * Connections are stored.
+ * The max amount of created connections is set from properties poolsize value.
+ * The connection can be taken from the Deque and
+ * released to it. If the Deque is empty, and the amount of
+ * created connections is less then poolsize, new connection
+ * is created and returned, otherwise its needed to wait when a connection
+ * is released (returned to current connection poll).
+ * Thread safe.
+ *
+ * @see ConnectionCreator
+ */
 public class ConnectionPool {
     private static final ReentrantLock lock = new ReentrantLock();
     private static final ReentrantLock connectionLock = new ReentrantLock();

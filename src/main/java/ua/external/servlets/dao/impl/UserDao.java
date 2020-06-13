@@ -18,6 +18,9 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
+/**
+ * DAO implementation for the PostgreSQL DB
+ */
 public class UserDao extends AbstractDao<Long, User> implements IUserDao {
     private final static String SQL_SELECT_ALL_USERS = "SELECT * FROM users";
     private final static String SQL_SELECT_USER_BY_ID = "SELECT * FROM users WHERE id = ?";

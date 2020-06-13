@@ -1,11 +1,18 @@
 package ua.external.servlets.dao;
 
+import org.apache.logging.log4j.Level;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import ua.external.servlets.pool.ConnectionPool;
 
 import java.sql.Connection;
 import java.sql.SQLException;
 
+/**
+ * Class used to set connection and create transaction for DAO
+ */
 public class EntityTransaction {
+    final static Logger logger = LogManager.getLogger();
     private Connection connection;
 
     public EntityTransaction() {
@@ -25,7 +32,7 @@ public class EntityTransaction {
         try {
             connection.setAutoCommit(false);
         } catch (SQLException e) {
-            //logger.log(Level.ERROR, " Error executing query ", e);
+            logger.log(Level.ERROR, " Error executing query ", e);
         }
         dao.setConnection(connection);
         for (AbstractDao daoElement : daos) {
@@ -38,7 +45,7 @@ public class EntityTransaction {
             try {
                 connection.setAutoCommit(true);
             } catch (SQLException e) {
-                //logger.log(Level.ERROR, " Error changing autocommit status",  e);
+                logger.log(Level.ERROR, " Error changing autocommit status",  e);
             }
             ConnectionPool.getInstance().returnConnection(connection);
             connection = null;
@@ -55,7 +62,7 @@ public class EntityTransaction {
         try {
             connection.commit();
         } catch (SQLException e) {
-            //logger.log(Level.ERROR, "Commit transaction error", e);
+            logger.log(Level.ERROR, "Commit transaction error", e);
         }
     }
 
@@ -63,7 +70,7 @@ public class EntityTransaction {
         try {
             connection.rollback();
         } catch (SQLException e) {
-            //logger.log(Level.ERROR, "Rollback transaction error", e);
+            logger.log(Level.ERROR, "Rollback transaction error", e);
         }
     }
 }

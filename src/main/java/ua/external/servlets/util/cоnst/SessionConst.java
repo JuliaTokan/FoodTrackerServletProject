@@ -1,5 +1,8 @@
 package ua.external.servlets.util.cоnst;
 
+/**
+ * Session constants
+ */
 public class SessionConst {
     public static final String SESSION_USER = "user";
 

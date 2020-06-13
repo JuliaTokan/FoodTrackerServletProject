@@ -18,6 +18,9 @@ import java.util.List;
 
 import static ua.external.servlets.util.cоnst.JspConst.*;
 
+/**
+ * Get client sign up page
+ */
 public class ClientInfoPageCommand implements ActionCommand {
     private GenderService genderService = new GenderService();
     private ActivityService activityService = new ActivityService();

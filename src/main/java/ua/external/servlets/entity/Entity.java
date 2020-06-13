@@ -3,6 +3,9 @@ package ua.external.servlets.entity;
 import javax.persistence.Id;
 import java.io.Serializable;
 
+/**
+ * Class for marking all database entities of this application
+ */
 public abstract class Entity implements Serializable, Cloneable {
     @Id
     private Long id;

@@ -13,6 +13,9 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.util.Properties;
 
+/**
+ * The {@code SendEmail} class provide sending e-mail.
+ */
 public class SendEmail {
     private final static Logger logger = LogManager.getLogger(SendEmail.class);
     private static final String PATH_CONFIG = "mail.properties";

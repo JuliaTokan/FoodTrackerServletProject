@@ -13,6 +13,10 @@ import javax.servlet.http.HttpServletResponse;
 
 import static ua.external.servlets.util.cоnst.JspConst.PARAM_MEALS_DELETE;
 
+/**
+ * Remove meals by array of ids.
+ * Returns router to the same page.
+ */
 public class DeleteMealsCommand implements ActionCommand {
     private static Logger log = LogManager.getLogger(DeleteMealsCommand.class);
     private MealsService mealsService = new MealsService();

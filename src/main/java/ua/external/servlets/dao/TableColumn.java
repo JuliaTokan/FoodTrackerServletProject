@@ -1,5 +1,8 @@
 package ua.external.servlets.dao;
 
+/**
+ * Table column's names of DB
+ */
 public class TableColumn {
     public final static String PRODUCT_ID = "id";
     public final static String PRODUCT_USER_ID = "user_id";
@@ -9,6 +12,7 @@ public class TableColumn {
     public final static String PRODUCT_FATS = "fats";
     public final static String PRODUCT_CARBOHYDRATES = "carbohydrates";
     public final static String PRODUCT_COMMON = "common";
+    public final static String PRODUCT_DELETED = "deleted";
 
     public final static String CLIENT_ID = "id";
     public final static String CLIENT_NAME = "name";

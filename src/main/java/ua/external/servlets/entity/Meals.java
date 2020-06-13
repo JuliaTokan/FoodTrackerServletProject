@@ -1,9 +1,10 @@
 package ua.external.servlets.entity;
 
-import ua.external.servlets.entity.enums.TimeMeals;
-
 import java.sql.Timestamp;
 
+/**
+ * A model class for meals database table
+ */
 public class Meals extends Entity{
     private Long user_id;
     private Product product;

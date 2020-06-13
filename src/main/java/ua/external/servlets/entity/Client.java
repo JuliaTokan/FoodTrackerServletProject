@@ -2,6 +2,9 @@ package ua.external.servlets.entity;
 
 import ua.external.servlets.util.nutrition.NutritionCalculator;
 
+/**
+ * A model class for client database table
+ */
 public class Client extends Entity {
     private String name;
 
@@ -128,4 +131,6 @@ public class Client extends Entity {
     public void setCarbohydrates(Double carbohydrates) {
         this.carbohydrates = carbohydrates;
     }
+
+
 }
