@@ -41,6 +41,7 @@
 /Users/yulia/Documents/projects_java/EpamCourse/EatAndFitServletProject/src/main/java/ua/external/servlets/service/impl/GenderService.java
 /Users/yulia/Documents/projects_java/EpamCourse/EatAndFitServletProject/src/main/java/ua/external/servlets/service/impl/EatPeriodService.java
 /Users/yulia/Documents/projects_java/EpamCourse/EatAndFitServletProject/src/main/java/ua/external/servlets/command/impl/client/ClientUpdatePageCommand.java
+/Users/yulia/Documents/projects_java/EpamCourse/EatAndFitServletProject/src/main/java/ua/external/servlets/filter/CrossScriptingFilter.java
 /Users/yulia/Documents/projects_java/EpamCourse/EatAndFitServletProject/src/main/java/ua/external/servlets/dao/IUserDao.java
 /Users/yulia/Documents/projects_java/EpamCourse/EatAndFitServletProject/src/main/java/ua/external/servlets/dao/IActivityDao.java
 /Users/yulia/Documents/projects_java/EpamCourse/EatAndFitServletProject/src/main/java/ua/external/servlets/util/nutrition/NutritionCalculator.java
@@ -79,6 +80,7 @@
 /Users/yulia/Documents/projects_java/EpamCourse/EatAndFitServletProject/src/main/java/ua/external/servlets/service/IUserService.java
 /Users/yulia/Documents/projects_java/EpamCourse/EatAndFitServletProject/src/main/java/ua/external/servlets/util/cоnst/SessionConst.java
 /Users/yulia/Documents/projects_java/EpamCourse/EatAndFitServletProject/src/main/java/ua/external/servlets/controller/old/ProductServlet.java
+/Users/yulia/Documents/projects_java/EpamCourse/EatAndFitServletProject/src/main/java/ua/external/servlets/validator/RequestWrapper.java
 /Users/yulia/Documents/projects_java/EpamCourse/EatAndFitServletProject/src/main/java/ua/external/servlets/service/impl/ClientService.java
 /Users/yulia/Documents/projects_java/EpamCourse/EatAndFitServletProject/src/main/java/ua/external/servlets/dao/impl/ProductDao.java
 /Users/yulia/Documents/projects_java/EpamCourse/EatAndFitServletProject/src/main/java/ua/external/servlets/validator/DataValidator.java

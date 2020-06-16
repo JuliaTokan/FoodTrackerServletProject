@@ -10,128 +10,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6817e7cf-4007-4727-9b20-8171e7469a16" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_all_2_0_2_beta.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ua/external/servlets/filter/RegistrationFilterTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/EatAndFitServletProject_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/EatAndFitServletProject_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/My_web_app_war.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/My_web_app_war_exploded.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_h2database_h2_1_4_197.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EatAndFitServletProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/EatAndFitServletProject.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Procfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/external/servlets/builder/ClientBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/external/servlets/builder/ClientBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/external/servlets/builder/IBuilder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/external/servlets/builder/MealsBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/external/servlets/builder/MealsBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/external/servlets/builder/ProductBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/external/servlets/builder/ProductBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/external/servlets/builder/UserBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/external/servlets/builder/UserBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/external/servlets/command/CommandEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/external/servlets/command/CommandType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/external/servlets/command/CommandResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/external/servlets/command/CommandResult.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/external/servlets/command/factory/ActionFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/external/servlets/command/factory/ActionFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/external/servlets/command/impl/EmptyCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/external/servlets/command/impl/EmptyCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/external/servlets/command/impl/LocaleCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/external/servlets/command/impl/LocaleCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/external/servlets/command/impl/LoginCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/external/servlets/command/impl/LoginCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/external/servlets/command/impl/LogoutCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/external/servlets/command/impl/LogoutCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/external/servlets/command/impl/RegisterCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/external/servlets/command/impl/RegisterCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/external/servlets/command/impl/RegisterPageCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/external/servlets/command/impl/RegisterPageCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/external/servlets/command/impl/admin/AdminDeleteProductCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/external/servlets/command/impl/admin/AdminDeleteProductCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/external/servlets/command/impl/admin/AdminEditProductCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/external/servlets/command/impl/admin/AdminEditProductCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/external/servlets/command/impl/admin/AdminProductCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/external/servlets/command/impl/admin/AdminProductCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/external/servlets/command/impl/client/ClientInfoPageCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/external/servlets/command/impl/client/ClientInfoPageCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/external/servlets/command/impl/client/ClientUpdateCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/external/servlets/command/impl/client/ClientUpdateCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/external/servlets/command/impl/client/ClientUpdatePageCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/external/servlets/command/impl/client/ClientUpdatePageCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/external/servlets/command/impl/client/CreateClientInfoCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/external/servlets/command/impl/client/CreateClientInfoCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/external/servlets/command/impl/info/AboutPageCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/external/servlets/command/impl/info/AboutPageCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/external/servlets/command/impl/info/ContactsPageCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/external/servlets/command/impl/info/ContactsPageCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/external/servlets/command/impl/info/RecipesPageCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/external/servlets/command/impl/info/RecipesPageCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/external/servlets/command/impl/meals/AddMealsCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/external/servlets/command/impl/meals/AddMealsCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/external/servlets/command/impl/meals/DeleteMealsCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/external/servlets/command/impl/meals/DeleteMealsCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/external/servlets/command/impl/meals/MealsPageCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/external/servlets/command/impl/meals/MealsPageCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/external/servlets/command/impl/product/AddProductCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/external/servlets/command/impl/product/AddProductCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/external/servlets/command/impl/progress/ProgressPageCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/external/servlets/command/impl/progress/ProgressPageCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/external/servlets/controller/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/external/servlets/controller/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/external/servlets/dao/AbstractDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/external/servlets/dao/AbstractDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/external/servlets/dao/DaoException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/external/servlets/dao/DaoException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/external/servlets/dao/EntityTransaction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/external/servlets/dao/EntityTransaction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/external/servlets/dao/IActivityDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/external/servlets/dao/IActivityDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/external/servlets/dao/IClientDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/external/servlets/dao/IClientDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/external/servlets/dao/IEatPeriodDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/external/servlets/dao/IEatPeriodDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/external/servlets/dao/IGenderDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/external/servlets/dao/IGenderDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/external/servlets/dao/IMealsDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/external/servlets/dao/IMealsDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/external/servlets/dao/INutritionGoalDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/external/servlets/dao/INutritionGoalDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/external/servlets/dao/IProductDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/external/servlets/dao/IProductDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/external/servlets/dao/IUserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/external/servlets/dao/IUserDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/external/servlets/dao/IUserRoleDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/external/servlets/dao/IUserRoleDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/external/servlets/dao/TableColumn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/external/servlets/dao/TableColumn.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/external/servlets/dao/impl/ActivityDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/external/servlets/dao/impl/ActivityDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/external/servlets/dao/impl/ClientDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/external/servlets/dao/impl/ClientDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/external/servlets/dao/impl/EatPeriodDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/external/servlets/dao/impl/EatPeriodDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/external/servlets/dao/impl/GenderDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/external/servlets/dao/impl/GenderDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/external/servlets/dao/impl/MealsDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/external/servlets/dao/impl/MealsDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/external/servlets/dao/impl/NutritionGoalDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/external/servlets/dao/impl/NutritionGoalDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/external/servlets/dao/impl/ProductDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/external/servlets/dao/impl/ProductDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/external/servlets/dao/impl/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/external/servlets/dao/impl/UserDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/external/servlets/dao/impl/UserRoleDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/external/servlets/dao/impl/UserRoleDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/external/servlets/entity/Activity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/external/servlets/entity/Activity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/external/servlets/entity/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/external/servlets/entity/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/external/servlets/entity/EatPeriod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/external/servlets/entity/EatPeriod.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/external/servlets/entity/Entity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/external/servlets/entity/Entity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/external/servlets/entity/Gender.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/external/servlets/entity/Gender.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/external/servlets/entity/Meals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/external/servlets/entity/Meals.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/external/servlets/entity/NutritionGoal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/external/servlets/entity/NutritionGoal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/external/servlets/entity/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/external/servlets/entity/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/external/servlets/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/external/servlets/entity/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/external/servlets/entity/UserRole.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/external/servlets/entity/UserRole.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/external/servlets/entity/enums/Activity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/external/servlets/entity/enums/Gender.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/external/servlets/entity/enums/NutritionGoal.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/external/servlets/entity/enums/TimeMeals.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/external/servlets/entity/enums/UserRole.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/external/servlets/filter/AdminFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/external/servlets/filter/AdminFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/external/servlets/filter/AuthorizationFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/external/servlets/filter/AuthorizationFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/external/servlets/filter/CharacterEncodingFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/external/servlets/filter/CharacterEncodingFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/external/servlets/filter/RegistrationFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/external/servlets/filter/RegistrationFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/external/servlets/filter/UserFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/external/servlets/filter/UserFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/external/servlets/mail/SendEmail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/external/servlets/mail/SendEmail.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/external/servlets/pool/ConnectionCreator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/external/servlets/pool/ConnectionCreator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/external/servlets/pool/ConnectionPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/external/servlets/pool/ConnectionPool.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/external/servlets/service/IActivityService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/external/servlets/service/IActivityService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/external/servlets/service/IClientService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/external/servlets/service/IClientService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/external/servlets/service/IEatPeriodService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/external/servlets/service/IEatPeriodService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/external/servlets/service/IGenderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/external/servlets/service/IGenderService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/external/servlets/service/IMealsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/external/servlets/service/IMealsService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/external/servlets/service/INutritionGoalService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/external/servlets/service/INutritionGoalService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/external/servlets/service/IProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/external/servlets/service/IProductService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/external/servlets/service/IUserRoleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/external/servlets/service/IUserRoleService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/external/servlets/service/IUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/external/servlets/service/IUserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/external/servlets/service/impl/ClientService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/external/servlets/service/impl/ClientService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/external/servlets/service/impl/MealsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/external/servlets/service/impl/MealsService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/external/servlets/service/impl/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/external/servlets/service/impl/ProductService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/external/servlets/service/impl/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/external/servlets/service/impl/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/external/servlets/sql/sql_db.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/external/servlets/sql/sql_db.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/external/servlets/util/cоnst/EmailContent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/external/servlets/util/cоnst/EmailContent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/external/servlets/util/cоnst/JspConst.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/external/servlets/util/cоnst/JspConst.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/external/servlets/util/cоnst/SessionConst.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/external/servlets/util/cоnst/SessionConst.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/external/servlets/util/nutrition/NutritionCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/external/servlets/util/nutrition/NutritionCalculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/external/servlets/util/page/Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/external/servlets/util/page/Page.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/external/servlets/util/password/PasswordHashGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/external/servlets/util/password/PasswordHashGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/external/servlets/validator/DataValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/external/servlets/validator/DataValidator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/db/database.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db/database.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/locale/pagecontent.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/locale/pagecontent.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/log4j2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/log4j2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin_meals.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/admin_meals.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/contact.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/contact.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/header.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/progress.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/progress.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/meals.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/meals.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ua/external/servlets/service/impl/ClientServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ua/external/servlets/service/impl/ClientServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ua/external/servlets/service/impl/MealsServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ua/external/servlets/service/impl/MealsServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ua/external/servlets/service/impl/ProductServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ua/external/servlets/service/impl/ProductServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ua/external/servlets/service/impl/UserServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ua/external/servlets/service/impl/UserServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ua/external/servlets/util/password/PasswordHashGeneratorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ua/external/servlets/util/password/PasswordHashGeneratorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/db/database.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/db/database.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/db/init.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/db/init.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/external/servlets/command/impl/progress/ProgressPageCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ua/external/servlets/command/impl/progress/ProgressPageCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/external/servlets/service/IMealsService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ua/external/servlets/service/IMealsService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat/logs/access_log.2020-06-09" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/error_jsp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/error_jsp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/first_005fregistration_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/first_005fregistration_jsp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/index_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/index_jsp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/progress_jsp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/progress_jsp.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -167,7 +58,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/ua/external/servlets/command/impl/meals/AddMealsCommand.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="216">
-              <caret line="85" column="67" lean-forward="true" selection-start-line="85" selection-start-column="16" selection-end-line="85" selection-end-column="67" />
+              <caret line="85" column="67" selection-start-line="85" selection-start-column="16" selection-end-line="85" selection-end-column="67" />
             </state>
           </provider>
         </entry>
@@ -176,7 +67,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/ua/external/servlets/mail/SendEmail.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="344">
-              <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
+              <caret line="52" selection-start-line="52" selection-end-line="52" />
             </state>
           </provider>
         </entry>
@@ -190,11 +81,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/mail.properties">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
-              <caret line="10" column="36" lean-forward="true" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
+              <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ua/external/servlets/filter/CharacterEncodingFilter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="10">
+              <caret line="14" selection-start-line="14" selection-end-line="14" selection-end-column="72" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ua/external/servlets/filter/AuthorizationFilter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-94">
+              <caret line="31" column="42" lean-forward="true" selection-start-line="31" selection-start-column="42" selection-end-line="31" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -254,9 +163,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/ua/external/servlets/command/impl/info/ContactsPageCommand.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ua/external/servlets/command/impl/info/AboutPageCommand.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ua/external/servlets/service/IUserService.java" />
         <option value="$PROJECT_DIR$/src/main/java/ua/external/servlets/service/IActivityService.java" />
         <option value="$PROJECT_DIR$/src/main/java/ua/external/servlets/service/IClientService.java" />
         <option value="$PROJECT_DIR$/src/main/java/ua/external/servlets/service/IEatPeriodService.java" />
@@ -305,6 +211,9 @@
         <option value="$PROJECT_DIR$/src/main/java/ua/external/servlets/service/impl/MealsService.java" />
         <option value="$PROJECT_DIR$/src/main/java/ua/external/servlets/service/IMealsService.java" />
         <option value="$PROJECT_DIR$/src/main/java/ua/external/servlets/dao/impl/ProductDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/external/servlets/validator/RequestWrapper.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/external/servlets/filter/CrossScriptingFilter.java" />
       </list>
     </option>
   </component>
@@ -326,8 +235,8 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="63" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-19" />
     <option name="y" value="23" />
     <option name="width" value="1258" />
     <option name="height" value="727" />
@@ -345,6 +254,11 @@
             <path>
               <item name="EatAndFitServletProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="EatAndFitServletProject" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EatAndFitServletProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EatAndFitServletProject" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="EatAndFitServletProject" type="b2602c69:ProjectViewProjectNode" />
@@ -377,7 +291,40 @@
               <item name="EatAndFitServletProject" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="servlets" type="462c0819:PsiDirectoryNode" />
+              <item name="filter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EatAndFitServletProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EatAndFitServletProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="servlets" type="462c0819:PsiDirectoryNode" />
+              <item name="validator" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EatAndFitServletProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EatAndFitServletProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EatAndFitServletProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EatAndFitServletProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EatAndFitServletProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EatAndFitServletProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -390,7 +337,7 @@
     <property name="DatabaseDriversLRU" value="postgresql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1592073787530" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1592321622751" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="create.test.in.the.same.root" value="true" />
@@ -781,7 +728,7 @@
       <workItem from="1589139821011" duration="19580000" />
       <workItem from="1589486735838" duration="12692000" />
       <workItem from="1589747239499" duration="16325000" />
-      <workItem from="1591042725436" duration="33217000" />
+      <workItem from="1591042725436" duration="34412000" />
     </task>
     <servers />
   </component>
@@ -818,7 +765,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="489608000" />
+    <option name="totallyTimeSpent" value="490803000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -830,10 +777,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="63" y="23" width="1258" height="727" extended-state="1" />
-    <editor active="true" />
+    <frame x="-19" y="23" width="1258" height="727" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.776378" visible="true" weight="0.25904605" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.776378" visible="true" weight="0.25904605" />
       <window_info id="Structure" order="1" sideWeight="0.4927769" weight="0.24753289" />
       <window_info id="Designer" order="2" />
       <window_info id="Nl-Palette" order="3" />
@@ -929,48 +875,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/external/servlets/command/impl/LogoutCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/first_registration.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1341">
-          <caret line="151" column="38" lean-forward="true" selection-start-line="151" selection-start-column="38" selection-end-line="151" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/external/servlets/command/impl/meals/DeleteMealsCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="38" column="48" selection-start-line="38" selection-start-column="48" selection-end-line="38" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/external/servlets/command/impl/LocaleCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/external/servlets/command/impl/admin/AdminEditProductCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-876">
-          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/external/servlets/command/impl/client/ClientUpdateCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ua/external/servlets/dao/impl/UserDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
@@ -1305,14 +1209,14 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/ua/external/servlets/command/impl/meals/AddMealsCommand.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
-          <caret line="85" column="67" lean-forward="true" selection-start-line="85" selection-start-column="16" selection-end-line="85" selection-end-column="67" />
+          <caret line="85" column="67" selection-start-line="85" selection-start-column="16" selection-end-line="85" selection-end-column="67" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ua/external/servlets/mail/SendEmail.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="344">
-          <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
+          <caret line="52" selection-start-line="52" selection-end-line="52" />
         </state>
       </provider>
     </entry>
@@ -1323,10 +1227,62 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/external/servlets/filter/AdminFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/external/servlets/validator/RequestWrapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="41" column="43" selection-start-line="41" selection-start-column="43" selection-end-line="41" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#273#274#0" expanded="true" />
+            <element signature="e#310#311#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="40" selection-start-line="27" selection-start-column="40" selection-end-line="27" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/external/servlets/filter/CrossScriptingFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="53" lean-forward="true" selection-start-line="15" selection-start-column="53" selection-end-line="15" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#init#0;class#CrossScriptingFilter#0" />
+            <element signature="method#destroy#0;class#CrossScriptingFilter#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/mail.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
-          <caret line="10" column="36" lean-forward="true" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
+          <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/external/servlets/filter/CharacterEncodingFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10">
+          <caret line="14" selection-start-line="14" selection-end-line="14" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/external/servlets/filter/AuthorizationFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-94">
+          <caret line="31" column="42" lean-forward="true" selection-start-line="31" selection-start-column="42" selection-end-line="31" selection-end-column="42" />
         </state>
       </provider>
     </entry>

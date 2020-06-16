@@ -56,6 +56,7 @@ ua/external/servlets/dao/impl/UserRoleDao.class
 ua/external/servlets/command/CommandType.class
 ua/external/servlets/util/cоnst/JspConst.class
 ua/external/servlets/service/IProductService.class
+ua/external/servlets/filter/CrossScriptingFilter.class
 ua/external/servlets/dao/impl/ProductDao.class
 ua/external/servlets/builder/ClientBuilder.class
 ua/external/servlets/dao/AbstractDao.class
@@ -69,6 +70,7 @@ ua/external/servlets/entity/UserRole.class
 ua/external/servlets/command/impl/product/AddProductCommand.class
 ua/external/servlets/service/IClientService.class
 ua/external/servlets/command/impl/meals/MealsPageCommand.class
+ua/external/servlets/validator/RequestWrapper.class
 ua/external/servlets/filter/UserFilter.class
 ua/external/servlets/validator/DataValidator.class
 ua/external/servlets/service/ServiceException.class
