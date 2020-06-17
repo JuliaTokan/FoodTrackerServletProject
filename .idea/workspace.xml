@@ -11,18 +11,23 @@
   <component name="ChangeListManager">
     <list default="true" id="6817e7cf-4007-4727-9b20-8171e7469a16" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ua/external/servlets/command/impl/progress/ProgressPageCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ua/external/servlets/command/impl/progress/ProgressPageCommand.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ua/external/servlets/service/IMealsService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ua/external/servlets/service/IMealsService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tomcat/logs/access_log.2020-06-09" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/error_jsp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/error_jsp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/external/servlets/command/impl/meals/MealsPageCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/external/servlets/command/impl/meals/MealsPageCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/external/servlets/dao/impl/ProductDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/external/servlets/dao/impl/ProductDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/external/servlets/service/IUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/external/servlets/service/IUserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/external/servlets/service/impl/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/external/servlets/service/impl/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/first_registration.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/first_registration.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/external/servlets/command/impl/meals/MealsPageCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ua/external/servlets/command/impl/meals/MealsPageCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/external/servlets/dao/impl/ProductDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ua/external/servlets/dao/impl/ProductDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/external/servlets/service/IUserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ua/external/servlets/service/IUserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/external/servlets/service/impl/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ua/external/servlets/service/impl/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat/logs/access_log.2020-06-16" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/admin_005fmeals_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/admin_005fmeals_jsp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/error_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/error_jsp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/first_005fregistration_jsp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/first_005fregistration_jsp.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/first_005fregistration_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/first_005fregistration_jsp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/index_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/index_jsp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/progress_jsp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/progress_jsp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/meals_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/meals_jsp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/progress_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/progress_jsp.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -55,55 +60,42 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ua/external/servlets/command/impl/meals/AddMealsCommand.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ua/external/servlets/command/impl/meals/MealsPageCommand.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="85" column="67" selection-start-line="85" selection-start-column="16" selection-end-line="85" selection-end-column="67" />
+            <state relative-caret-position="181">
+              <caret line="50" column="86" selection-start-line="50" selection-start-column="71" selection-end-line="50" selection-end-column="86" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ua/external/servlets/mail/SendEmail.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ua/external/servlets/service/impl/UserService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="344">
-              <caret line="52" selection-start-line="52" selection-end-line="52" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ua/external/servlets/util/cоnst/EmailContent.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/mail.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ua/external/servlets/filter/CharacterEncodingFilter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="10">
-              <caret line="14" selection-start-line="14" selection-end-line="14" selection-end-column="72" />
+            <state relative-caret-position="233">
+              <caret line="112" column="105" selection-start-line="112" selection-start-column="105" selection-end-line="112" selection-end-column="105" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ua/external/servlets/filter/AuthorizationFilter.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ua/external/servlets/command/impl/meals/AddMealsCommand.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-94">
-              <caret line="31" column="42" lean-forward="true" selection-start-line="31" selection-start-column="42" selection-end-line="31" selection-end-column="42" />
+            <state relative-caret-position="423">
+              <caret line="104" column="27" lean-forward="true" selection-start-line="104" selection-start-column="27" selection-end-line="104" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ua/external/servlets/dao/impl/MealsDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="25" column="85" selection-start-line="25" selection-start-column="85" selection-end-line="25" selection-end-column="85" />
+              <folding>
+                <element signature="method#findAll#0;class#MealsDao#0" />
+                <element signature="method#findById#0;class#MealsDao#0" />
+                <element signature="method#findAllByUser#0;class#MealsDao#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -163,8 +155,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/ua/external/servlets/service/IActivityService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ua/external/servlets/service/IClientService.java" />
         <option value="$PROJECT_DIR$/src/main/java/ua/external/servlets/service/IEatPeriodService.java" />
         <option value="$PROJECT_DIR$/src/main/java/ua/external/servlets/service/IGenderService.java" />
         <option value="$PROJECT_DIR$/src/main/java/ua/external/servlets/service/INutritionGoalService.java" />
@@ -173,7 +163,6 @@
         <option value="$PROJECT_DIR$/src/test/java/ua/external/servlets/service/impl/MealsServiceTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/ua/external/servlets/service/impl/ProductServiceTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/ua/external/servlets/service/impl/ClientServiceTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ua/external/servlets/service/impl/UserService.java" />
         <option value="$PROJECT_DIR$/src/test/java/ua/external/servlets/service/impl/UserServiceTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/ua/external/servlets/filter/AdminFilter.java" />
         <option value="$PROJECT_DIR$/src/main/java/ua/external/servlets/entity/Meals.java" />
@@ -186,7 +175,6 @@
         <option value="$PROJECT_DIR$/src/main/webapp/static/js/admin_product.js" />
         <option value="$PROJECT_DIR$/src/main/webapp/admin_meals.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/header.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/ua/external/servlets/command/impl/meals/MealsPageCommand.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/static/js/meals.js" />
         <option value="$PROJECT_DIR$/src/main/java/ua/external/servlets/dao/impl/MealsDao.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/static/js/statistic.js" />
@@ -210,10 +198,14 @@
         <option value="$PROJECT_DIR$/src/main/java/ua/external/servlets/command/impl/progress/ProgressPageCommand.java" />
         <option value="$PROJECT_DIR$/src/main/java/ua/external/servlets/service/impl/MealsService.java" />
         <option value="$PROJECT_DIR$/src/main/java/ua/external/servlets/service/IMealsService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ua/external/servlets/dao/impl/ProductDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/ua/external/servlets/validator/RequestWrapper.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/java/ua/external/servlets/filter/CrossScriptingFilter.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/first_registration.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/external/servlets/command/impl/meals/MealsPageCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/external/servlets/dao/impl/ProductDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/external/servlets/service/IUserService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/external/servlets/service/impl/UserService.java" />
       </list>
     </option>
   </component>
@@ -293,7 +285,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="servlets" type="462c0819:PsiDirectoryNode" />
-              <item name="filter" type="462c0819:PsiDirectoryNode" />
+              <item name="command" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="EatAndFitServletProject" type="b2602c69:ProjectViewProjectNode" />
@@ -302,7 +294,77 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="servlets" type="462c0819:PsiDirectoryNode" />
-              <item name="validator" type="462c0819:PsiDirectoryNode" />
+              <item name="command" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EatAndFitServletProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EatAndFitServletProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="servlets" type="462c0819:PsiDirectoryNode" />
+              <item name="command" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+              <item name="meals" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EatAndFitServletProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EatAndFitServletProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="servlets" type="462c0819:PsiDirectoryNode" />
+              <item name="command" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+              <item name="progress" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EatAndFitServletProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EatAndFitServletProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="servlets" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EatAndFitServletProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EatAndFitServletProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="servlets" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EatAndFitServletProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EatAndFitServletProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="servlets" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EatAndFitServletProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EatAndFitServletProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="servlets" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EatAndFitServletProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EatAndFitServletProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="servlets" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="nutrition" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="EatAndFitServletProject" type="b2602c69:ProjectViewProjectNode" />
@@ -310,21 +372,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="EatAndFitServletProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EatAndFitServletProject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="EatAndFitServletProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EatAndFitServletProject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -337,7 +384,7 @@
     <property name="DatabaseDriversLRU" value="postgresql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1592321622751" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1592403304080" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="create.test.in.the.same.root" value="true" />
@@ -728,7 +775,7 @@
       <workItem from="1589139821011" duration="19580000" />
       <workItem from="1589486735838" duration="12692000" />
       <workItem from="1589747239499" duration="16325000" />
-      <workItem from="1591042725436" duration="34412000" />
+      <workItem from="1591042725436" duration="37925000" />
     </task>
     <servers />
   </component>
@@ -765,7 +812,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="490803000" />
+    <option name="totallyTimeSpent" value="494316000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -779,17 +826,17 @@
   <component name="ToolWindowManager">
     <frame x="-19" y="23" width="1258" height="727" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.776378" visible="true" weight="0.25904605" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.77437323" weight="0.25904605" />
       <window_info id="Structure" order="1" sideWeight="0.4927769" weight="0.24753289" />
       <window_info id="Designer" order="2" />
       <window_info id="Nl-Palette" order="3" />
-      <window_info id="Favorites" order="4" sideWeight="0.22362205" side_tool="true" visible="true" weight="0.25904605" />
+      <window_info id="Favorites" order="4" sideWeight="0.22562674" side_tool="true" visible="true" weight="0.25904605" />
       <window_info id="Image Layers" order="5" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="UI Designer" order="7" />
       <window_info id="Web" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32744783" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32598424" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.43464568" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.25669292" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -875,40 +922,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/external/servlets/dao/impl/UserDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/external/servlets/service/impl/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="107" column="58" selection-start-line="107" selection-start-column="58" selection-end-line="107" selection-end-column="58" />
-          <folding>
-            <element signature="method#findUserByLogin#0;class#UserService#0" />
-            <element signature="method#updateUser#0;class#UserService#0" />
-            <element signature="method#countProtein#0;class#UserService#0" />
-            <element signature="method#countFats#0;class#UserService#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/js/admin_product.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="496">
-          <caret line="95" selection-start-line="95" selection-end-line="95" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/admin_meals.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="380" column="41" selection-start-line="380" selection-start-column="41" selection-end-line="380" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ua/external/servlets/service/impl/ClientService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -1114,43 +1127,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/external/servlets/dao/impl/MealsDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="387">
-          <caret line="95" column="63" selection-start-line="95" selection-start-column="52" selection-end-line="95" selection-end-column="63" />
-          <folding>
-            <element signature="method#findAll#0;class#MealsDao#0" />
-            <element signature="method#findById#0;class#MealsDao#0" />
-            <element signature="method#findAllByUser#0;class#MealsDao#0" />
-            <element signature="method#create#0;class#MealsDao#0" />
-            <element signature="method#update#0;class#MealsDao#0" />
-            <element signature="method#delete#0;class#MealsDao#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/statistic.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="52">
           <caret line="38" column="4" selection-start-line="38" selection-start-column="4" selection-end-line="38" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/external/servlets/dao/impl/ProductDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="233" column="27" selection-start-line="233" selection-start-column="27" selection-end-line="233" selection-end-column="27" />
-          <folding>
-            <element signature="method#findAll#0;class#ProductDao#0" />
-            <element signature="method#findAllForUser#0;class#ProductDao#0" />
-            <element signature="method#findById#0;class#ProductDao#0" />
-            <element signature="method#create#0;class#ProductDao#0" />
-            <element signature="method#update#0;class#ProductDao#0" />
-            <element signature="method#deleteById#0;class#ProductDao#0" />
-            <element signature="method#findUsersProducts#0;class#ProductDao#0" />
-            <element signature="method#findAllForUserByName#0;class#ProductDao#0" />
-            <element signature="method#extractProduct#0;class#ProductDao#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1185,31 +1165,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/external/servlets/command/impl/progress/ProgressPageCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="80" column="84" lean-forward="true" selection-start-line="80" selection-start-column="49" selection-end-line="80" selection-end-column="84" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ua/external/servlets/command/impl/product/AddProductCommand.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
           <caret line="113" column="34" lean-forward="true" selection-start-line="113" selection-start-column="34" selection-end-line="113" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/external/servlets/command/impl/meals/MealsPageCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="50" column="62" selection-start-line="50" selection-start-column="62" selection-end-line="50" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/external/servlets/command/impl/meals/AddMealsCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="85" column="67" selection-start-line="85" selection-start-column="16" selection-end-line="85" selection-end-column="67" />
         </state>
       </provider>
     </entry>
@@ -1281,8 +1240,89 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ua/external/servlets/filter/AuthorizationFilter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-94">
+        <state relative-caret-position="161">
           <caret line="31" column="42" lean-forward="true" selection-start-line="31" selection-start-column="42" selection-end-line="31" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/first_registration.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="108" column="68" selection-start-line="108" selection-start-column="68" selection-end-line="108" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/external/servlets/util/nutrition/NutritionCalculator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/external/servlets/command/impl/progress/ProgressPageCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="57" column="56" selection-start-line="57" selection-start-column="56" selection-end-line="57" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/external/servlets/dao/impl/MealsDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="25" column="85" selection-start-line="25" selection-start-column="85" selection-end-line="25" selection-end-column="85" />
+          <folding>
+            <element signature="method#findAll#0;class#MealsDao#0" />
+            <element signature="method#findById#0;class#MealsDao#0" />
+            <element signature="method#findAllByUser#0;class#MealsDao#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/external/servlets/service/IUserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="24" column="66" selection-start-line="24" selection-start-column="66" selection-end-line="24" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/external/servlets/dao/impl/ProductDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="35" column="13" lean-forward="true" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
+          <folding>
+            <element signature="method#findAll#0;class#ProductDao#0" />
+            <element signature="method#findAllForUser#0;class#ProductDao#0" />
+            <element signature="method#findById#0;class#ProductDao#0" />
+            <element signature="method#create#0;class#ProductDao#0" />
+            <element signature="method#update#0;class#ProductDao#0" />
+            <element signature="method#deleteById#0;class#ProductDao#0" />
+            <element signature="method#findUsersProducts#0;class#ProductDao#0" />
+            <element signature="method#findAllForUserByName#0;class#ProductDao#0" />
+            <element signature="method#getNumberOfRows#0;class#ProductDao#0" />
+            <element signature="method#findAllByPageForUser#0;class#ProductDao#0" />
+            <element signature="method#extractProduct#0;class#ProductDao#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/external/servlets/command/impl/meals/MealsPageCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="50" column="86" selection-start-line="50" selection-start-column="71" selection-end-line="50" selection-end-column="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/external/servlets/service/impl/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="112" column="105" selection-start-line="112" selection-start-column="105" selection-end-line="112" selection-end-column="105" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/external/servlets/command/impl/meals/AddMealsCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="423">
+          <caret line="104" column="27" lean-forward="true" selection-start-line="104" selection-start-column="27" selection-end-line="104" selection-end-column="27" />
         </state>
       </provider>
     </entry>

@@ -7,16 +7,20 @@ import ua.external.servlets.dao.DaoException;
 import ua.external.servlets.dao.EntityTransaction;
 import ua.external.servlets.dao.impl.ProductDao;
 import ua.external.servlets.dao.impl.UserDao;
+import ua.external.servlets.entity.Meals;
 import ua.external.servlets.entity.Product;
 import ua.external.servlets.entity.User;
 import ua.external.servlets.service.ServiceException;
 
+import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
 public class UserService implements ua.external.servlets.service.IUserService {
     final static Logger logger = LogManager.getLogger();
+
+    private MealsService mealsService = new MealsService();
 
     @Override
     public Optional<User> findUserByLogin(String login) throws ServiceException {
@@ -81,51 +85,32 @@ public class UserService implements ua.external.servlets.service.IUserService {
     @Override
     public Integer countCalories(User user) throws ServiceException {
         Integer sum = 0;
-        List<Product> products =findAllUserProducts(user);
-        sum = products.stream().mapToInt(x -> x.getCalories()).sum();
+        List<Meals> meals = mealsService.getAllMealForUserByDate(user.getId(), LocalDate.now());
+        sum = meals.stream().mapToInt(x -> x.getWeight()*x.getProduct().getCalories()/100).sum();
         return sum;
     }
 
     @Override
     public Integer countProtein(User user) throws ServiceException {
         Integer sum = 0;
-        List<Product> products =findAllUserProducts(user);
-        sum = products.stream().mapToInt(x -> x.getProtein().intValue()).sum();
+        List<Meals> meals = mealsService.getAllMealForUserByDate(user.getId(), LocalDate.now());
+        sum = meals.stream().mapToInt(x -> x.getWeight()*x.getProduct().getProtein().intValue()/100).sum();
         return sum;
     }
 
     @Override
     public Integer countFats(User user) throws ServiceException {
         Integer sum = 0;
-        List<Product> products =findAllUserProducts(user);
-        sum = products.stream().mapToInt(x -> x.getFats().intValue()).sum();
+        List<Meals> meals = mealsService.getAllMealForUserByDate(user.getId(), LocalDate.now());
+        sum = meals.stream().mapToInt(x -> x.getWeight()*x.getProduct().getFats().intValue()/100).sum();
         return sum;
     }
 
     @Override
     public Integer countCarbohydrates(User user) throws ServiceException {
         Integer sum = 0;
-        List<Product> products =findAllUserProducts(user);
-        sum = products.stream().mapToInt(x -> x.getCarbohydrates().intValue()).sum();
+        List<Meals> meals = mealsService.getAllMealForUserByDate(user.getId(), LocalDate.now());
+        sum = meals.stream().mapToInt(x -> x.getWeight()*x.getProduct().getCarbohydrates().intValue()/100).sum();
         return sum;
-    }
-
-    @Override
-    public List<Product> findAllUserProducts(User user) throws ServiceException {
-        ProductDao productDao = new ProductDao();
-        EntityTransaction transaction = new EntityTransaction();
-        transaction.beginNoTransaction(productDao);
-        Integer sum = 0;
-
-        List<Product> products = new ArrayList<>();
-        try {
-            products = productDao.findUsersProducts(user.getId());
-        } catch (DaoException e) {
-            logger.log(Level.ERROR, "Exception while executing service", e);
-            throw new ServiceException(e);
-        } finally {
-            transaction.endNoTransaction();
-        }
-        return products;
     }
 }

@@ -23,6 +23,4 @@ public interface IUserService {
     Integer countFats(User user) throws ServiceException;
 
     Integer countCarbohydrates(User user) throws ServiceException;
-
-    List<Product> findAllUserProducts(User user) throws ServiceException;
 }

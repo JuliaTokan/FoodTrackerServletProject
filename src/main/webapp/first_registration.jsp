@@ -116,7 +116,7 @@
                                         </div>
                                     </c:if>
 
-                                    <form class="singup" action="/sign/up" method="POST" accept-charset="UTF-8">
+                                    <form class="singup" action="/sign/up" method="POST" accept-charset="UTF-8" >
                                         <div class="rg-field-wrap">
                                             <label class="rg-label">
                                                 ${spanemail}<span class="req rg-span">*</span>

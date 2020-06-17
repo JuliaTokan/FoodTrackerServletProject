@@ -11,6 +11,7 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
+import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
@@ -27,7 +28,7 @@ public class ProductDao extends AbstractDao<Long, Product> implements IProductDa
     private final static String SQL_UPDATE_PRODUCT = "UPDATE products SET name= ?, calories= ?, protein= ?, fats= ?, carbohydrates= ?, common= ?, deleted= ? WHERE id= ?";
     private final static String SQL_UPDATE_DELETE_PRODUCT = "UPDATE products SET deleted= true WHERE id= ?";
     private final static String SQL_DELETE_PRODUCT = "DELETE FROM products WHERE id= ?";
-    private final static String SQL_SELECT_USER_PRODUCT = "SELECT * FROM users INNER JOIN meals ON users.id = meals.user_id INNER JOIN products ON meals.product_id = products.id WHERE users.id = ?";
+    private final static String SQL_SELECT_USER_PRODUCT = "SELECT * FROM users INNER JOIN meals ON users.id = meals.user_id INNER JOIN products ON meals.product_id = products.id WHERE users.id = ? AND TO_CHAR(date, 'YYYY-MM-DD') = ?";
     private final static String SQL_SELECT_PRODUCTS_BY_NAME = "SELECT * FROM products WHERE (name LIKE ? AND (common = true OR user_id= ?) AND deleted = false)";
     private final static String SQL_NUM_OF_ROWS = "SELECT COUNT(id) AS total FROM products WHERE (common = true OR user_id= ?) AND deleted = false";
     private final static String SQL_SELECT_PAGE_PRODUCTS_BY_USER = "SELECT * FROM products WHERE (common = true OR user_id= ?) AND deleted = false LIMIT ? OFFSET ?";
@@ -167,6 +168,7 @@ public class ProductDao extends AbstractDao<Long, Product> implements IProductDa
         try {
             statement = connection.prepareStatement(SQL_SELECT_USER_PRODUCT);
             statement.setLong(1, id);
+            statement.setString(2, LocalDate.now().toString());
             ResultSet resultSet = statement.executeQuery();
             while (resultSet.next()) {
                 Product product = extractProduct(resultSet);

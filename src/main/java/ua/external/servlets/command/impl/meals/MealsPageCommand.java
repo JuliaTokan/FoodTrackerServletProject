@@ -17,6 +17,7 @@ import ua.external.servlets.util.page.Page;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
+import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.LinkedHashMap;
 import java.util.List;
@@ -47,7 +48,7 @@ public class MealsPageCommand implements ActionCommand {
 
         try {
             products = productService.findAllProductsForUser(user.getId());
-            meals = mealsService.getAllMealForUser(user.getId());
+            meals = mealsService.getAllMealForUserByDate(user.getId(), LocalDate.now());//getAllMealForUser(user.getId());
             eatPeriods = eatPeriodService.findAllEatPeriods();
         } catch (ServiceException e) {
             log.error("Problem with service occurred!", e);
