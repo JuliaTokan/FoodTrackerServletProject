@@ -37,19 +37,16 @@ public class ClientServiceTest {
 
     @Test
     public void createClient() throws ServiceException {
-        Mockito.doReturn(false).when(clientService).createClient(client);
         assertFalse(clientService.createClient(client));
     }
 
     @Test
     public void updateClient() throws ServiceException {
-        Mockito.doReturn(false).when(clientService).updateClient(client);
         assertFalse(clientService.updateClient(client));
     }
 
     @Test
     public void findClientById() throws ServiceException {
-        Mockito.doReturn(client).when(clientService).findClientById(ID);
         assertEquals(client, clientService.findClientById(ID));
     }
 }

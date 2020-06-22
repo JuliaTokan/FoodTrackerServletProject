@@ -44,20 +44,16 @@ public class MealsServiceTest {
 
     @Test(expected = ServiceException.class)
     public void createMeals() throws ServiceException {
-        Mockito.doReturn(new ServiceException()).when(mealsService).createMeals(meals);
         mealsService.createMeals(meals);
     }
 
     @Test
     public void getAllMealForUser() throws ServiceException {
-        List<Meals> meals = new ArrayList<>();
-        Mockito.doReturn(meals).when(mealsService).getAllMealForUser(ID);
         Assert.assertNotNull(mealsService.getAllMealForUser(ID));
     }
 
     @Test
     public void deleteMealsById() throws ServiceException, DaoException {
-        Mockito.doReturn(true).when(mealsDao).delete(ID);
         Assert.assertTrue(mealsService.deleteMealsById(ID));
     }
 }

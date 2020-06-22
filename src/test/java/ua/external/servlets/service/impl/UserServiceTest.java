@@ -6,7 +6,15 @@ import org.junit.After;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.mockito.InjectMocks;
+import org.mockito.Mock;
 import org.mockito.Mockito;
+import org.mockito.runners.MockitoJUnitRunner;
+import ua.external.servlets.builder.UserBuilder;
+import ua.external.servlets.dao.DaoException;
+import ua.external.servlets.dao.IUserDao;
+import ua.external.servlets.dao.impl.UserDao;
 import ua.external.servlets.entity.Client;
 import ua.external.servlets.entity.Product;
 import ua.external.servlets.entity.User;
@@ -17,22 +25,30 @@ import ua.external.servlets.service.ServiceException;
 import java.io.FileReader;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Optional;
 
 import static org.junit.Assert.*;
+import static org.mockito.Matchers.anyString;
+import static org.mockito.Mockito.*;
 
 public class UserServiceTest {
     private final static Logger logger = LogManager.getLogger();
     private final static String LOGIN = "yulia.tokan.11@gmail.com";
     private final static String LOGIN_DONT_EXIST = "notexist@gmail789.com";
+
     UserService userService;
 
-    private static final User user = new User();
+    IUserDao userDao;
+
+    private static final User user = new UserBuilder().setLogin("test.user@gmail.com").setPassword("qwe12345").createUser();
+    private static final User emptyUser = new User();
     private static final Long ID = new Long(4);
 
     @Before
     public void setUp() throws Exception {
         logger.info("Start test in userServiceTest");
-        userService = Mockito.spy(UserService.class);
+        userService = new UserService();
+        userDao = mock(IUserDao.class);
     }
 
     @After
@@ -43,15 +59,18 @@ public class UserServiceTest {
 
     @Test
     public void createUser() throws ServiceException {
-        Mockito.doReturn(true).when(userService).createUser(user);
         assertTrue(userService.createUser(user));
+    }
+
+    @Test(expected = ServiceException.class)
+    public void createUserWithException() throws ServiceException {
+        assertTrue(userService.createUser(emptyUser));
     }
 
 
     @Test
-    public void findUserByLogin() throws ServiceException {
-        Mockito.doReturn(user).when(userService).findUserByLogin(LOGIN);
-        assertEquals(user, userService.findUserByLogin(LOGIN));
+    public void findUserByLogin() throws ServiceException, DaoException {
+        assertNotNull(userService.findUserByLogin(LOGIN).get());
     }
 
     @Test
@@ -63,29 +82,19 @@ public class UserServiceTest {
 
     @Test
     public void countProtein() throws ServiceException {
-        Mockito.doReturn(500).when(userService).countProtein(user);
         Integer expected = 500;
         assertEquals(expected, userService.countProtein(user));
     }
 
     @Test
     public void countFats() throws ServiceException {
-        Mockito.doReturn(400).when(userService).countFats(user);
         Integer expected = 400;
         assertEquals(expected, userService.countFats(user));
     }
 
     @Test
     public void countCarbohydrates() throws ServiceException {
-        Mockito.doReturn(100).when(userService).countCarbohydrates(user);
         Integer expected = 100;
         assertEquals(expected, userService.countCarbohydrates(user));
-    }
-
-    @Test
-    public void findAllUserProducts() throws ServiceException {
-        List<Product> products = new ArrayList<>();
-        Mockito.doReturn(products).when(userService).findAllUserProducts(user);
-        Assert.assertNotNull(userService.findAllUserProducts(user));
     }
 }

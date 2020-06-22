@@ -69,8 +69,8 @@ public class LoginCommand implements ActionCommand {
                 if (userOptional.isPresent()) {
                     User user = userOptional.get();
                     if (user.getPassword().equals(passwordHashGenerator.hash(password))) {
-                        session.setAttribute(SESSION_EXIST_USER, true);
-                        session.setAttribute(SESSION_USER, user);
+                        //session.setAttribute(SESSION_EXIST_USER, true);
+                        //session.setAttribute(SESSION_USER, user);
                         log.info("user with id = " + user.getId() + " log in");
 
                         if(user.getClient_id() != 0){

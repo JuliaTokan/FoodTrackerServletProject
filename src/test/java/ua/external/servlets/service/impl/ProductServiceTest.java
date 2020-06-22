@@ -37,39 +37,31 @@ public class ProductServiceTest {
 
     @Test
     public void createProduct() throws ServiceException {
-        Mockito.doReturn(false).when(productService).createProduct(product);
         assertFalse(productService.createProduct(product));
     }
 
     @Test
     public void findAllProductsForUser() throws ServiceException {
-        List<Product> products = new ArrayList<>();
-        Mockito.doReturn(products).when(productService).findAllProductsForUser(ID);
         Assert.assertNotNull(productService.findAllProductsForUser(ID));
     }
 
     @Test
     public void findProductById() throws ServiceException {
-        Mockito.doReturn(product).when(productService).findProductById(ID).get();
         assertNotNull(productService.findProductById(ID).get());
     }
 
     @Test
     public void updateProduct() throws ServiceException {
-        Mockito.doReturn(true).when(productService).updateProduct(product);
         assertTrue(productService.updateProduct(product));
     }
 
     @Test
     public void deleteProductById() throws ServiceException {
-        Mockito.doReturn(false).when(productService).deleteProductById(ID);
         assertFalse(productService.deleteProductById(ID));
     }
 
     @Test
     public void findAllProductsForUserByName() throws ServiceException {
-        List<Product> products = new ArrayList<>();
-        Mockito.doReturn(products).when(productService).findAllProductsForUserByName(ID, "L");
         assertNotNull(productService.findAllProductsForUserByName(ID, "L"));
     }
 }
