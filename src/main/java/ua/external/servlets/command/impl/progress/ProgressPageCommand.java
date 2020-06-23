@@ -53,13 +53,12 @@ public class ProgressPageCommand implements ActionCommand {
             Integer maxFats = 0;
             Integer maxCarbohydrates = 0;
 
-            if(user.getClient_id() == null || user.getClient_id() == 0){
+            if (user.getClient_id() == null || user.getClient_id() == 0) {
                 maxCalories = NutritionCalculator.AVR_CALORIES;
                 maxProtein = NutritionCalculator.calculateProtein(maxCalories).intValue();
                 maxFats = NutritionCalculator.calculateFats(maxCalories).intValue();
                 maxCarbohydrates = NutritionCalculator.calculateCarbohydrates(maxCalories).intValue();
-            }
-            else {
+            } else {
                 Client client = clientService.findClientById(user.getClient_id()).get();
                 maxCalories = client.getCalories();
                 maxProtein = client.getProtein().intValue();
@@ -71,10 +70,10 @@ public class ProgressPageCommand implements ActionCommand {
                 LocalDate cur_date = LocalDate.now();
                 HashMap<String, Integer> weekInfo = new LinkedHashMap<>();
 
-                for(int i = 0; i<WEEK; i++){
+                for (int i = 0; i < WEEK; i++) {
                     LocalDate date = cur_date.minusDays(i);
                     List<Meals> meals = mealsService.getAllMealForUserByDate(user.getId(), date);
-                    Integer numOfCalories = meals.stream().mapToInt(x->x.getProduct().getCalories()*x.getWeight()/100).sum();
+                    Integer numOfCalories = meals.stream().mapToInt(x -> x.getProduct().getCalories() * x.getWeight() / 100).sum();
                     weekInfo.put(date.toString(), numOfCalories);
                 }
                 ObjectMapper mapper = new ObjectMapper();
@@ -88,7 +87,7 @@ public class ProgressPageCommand implements ActionCommand {
 
             request.setAttribute(CURRENT_CALORIES, currentCalories);
             request.setAttribute(MAX_CALORIES, maxCalories);
-            request.setAttribute(CURRENT_PERCENTAGE, currentCalories*100/maxCalories);
+            request.setAttribute(CURRENT_PERCENTAGE, currentCalories * 100 / maxCalories);
             request.setAttribute(CURRENT_PROTEIN, currentProtein);
             request.setAttribute(MAX_PROTEIN, maxProtein);
             request.setAttribute(CURRENT_FATS, currentFats);

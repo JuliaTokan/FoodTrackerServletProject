@@ -76,12 +76,11 @@ public class AdminEditProductCommand implements ActionCommand {
         }
 
         Product newProduct;
-        try{
+        try {
             newProduct = updateProduct(request, id);
-            if(productService.updateProduct(newProduct)){
+            if (productService.updateProduct(newProduct)) {
                 log.info("update product with id=" + id);
-            }
-            else {
+            } else {
                 session.setAttribute(MODAL_EDIT, true);
                 session.setAttribute(WRONG_DATA, true);
                 return new CommandResult(Page.ADMIN_PRODUCT_PAGE);
@@ -99,7 +98,7 @@ public class AdminEditProductCommand implements ActionCommand {
         Double fats = Double.parseDouble(request.getParameter(PARAM_FATS));
         Double carbohydrates = Double.parseDouble(request.getParameter(PARAM_CARBOHYDRATES));
 
-        Boolean isPublic = request.getParameter(PARAM_PUBLIC)==null?false:request.getParameter(PARAM_PUBLIC).equals("on")?true:false;
+        Boolean isPublic = request.getParameter(PARAM_PUBLIC) == null ? false : request.getParameter(PARAM_PUBLIC).equals("on") ? true : false;
 
         HttpSession session = request.getSession();
         User user = (User) session.getAttribute(PARAM_USER);

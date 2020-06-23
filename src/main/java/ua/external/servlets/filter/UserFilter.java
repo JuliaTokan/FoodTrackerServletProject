@@ -15,7 +15,7 @@ import static ua.external.servlets.util.cоnst.SessionConst.SESSION_EXIST_USER;
 import static ua.external.servlets.util.cоnst.SessionConst.SESSION_USER;
 
 /**
- * The {@code AuthorizationFilter} class
+ * The {@code UserFilter} class
  * is an implementation of {@code Filter} interface.
  * Checks user login and command if it is accessible for him.
  */
@@ -31,15 +31,14 @@ public class UserFilter implements Filter {
         HttpServletResponse response = (HttpServletResponse) servletResponse;
 
         HttpSession session = request.getSession();
-        if(nonNull(session.getAttribute(SESSION_EXIST_USER)) && (boolean)session.getAttribute(SESSION_EXIST_USER) == true){
+        if (nonNull(session.getAttribute(SESSION_EXIST_USER)) && (boolean) session.getAttribute(SESSION_EXIST_USER) == true) {
             User user = (User) session.getAttribute(SESSION_USER);
-            if(user == null) {
+            if (user == null) {
                 response.sendRedirect(Page.LOGIN_PAGE);
+            } else {
+                filterChain.doFilter(servletRequest, servletResponse);
             }
-            else {
-                filterChain.doFilter(servletRequest, servletResponse);}
-        }
-        else {
+        } else {
             response.sendRedirect(Page.LOGIN_PAGE);
         }
     }

@@ -12,7 +12,7 @@ public final class RequestWrapper extends HttpServletRequestWrapper {
     public String[] getParameterValues(String parameter) {
 
         String[] values = super.getParameterValues(parameter);
-        if (values==null)  {
+        if (values == null) {
             return null;
         }
         int count = values.length;

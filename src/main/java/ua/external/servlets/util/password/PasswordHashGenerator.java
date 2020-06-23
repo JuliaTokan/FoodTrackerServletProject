@@ -18,6 +18,7 @@ public class PasswordHashGenerator {
     private final static String CHARSET = "utf-8";
     private final static int SIGNUM = 1;
     private final static int RADIX = 16;
+
     public String hash(String password) {
         byte[] bytes = null;
         try {

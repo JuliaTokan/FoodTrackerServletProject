@@ -19,6 +19,7 @@ import javax.servlet.http.HttpSession;
 import static ua.external.servlets.util.cоnst.JspConst.*;
 import static ua.external.servlets.util.cоnst.SessionConst.SESSION_CLIENT;
 import static ua.external.servlets.util.cоnst.SessionConst.SESSION_NAME;
+
 /**
  * Gets client information.
  * Validates this values, if input data is not valid,
@@ -75,7 +76,7 @@ public class CreateClientInfoCommand implements ActionCommand {
                 if (userService.updateUser(user)) {
                     session.setAttribute(SESSION_CLIENT, client);
                     session.setAttribute(SESSION_NAME, client.getName());
-                    log.info("create client information for user with id="+user.getId());
+                    log.info("create client information for user with id=" + user.getId());
                     page = Page.WELCOME_PAGE;
                 } else {
                     request.setAttribute(WRONG_DATA, true);

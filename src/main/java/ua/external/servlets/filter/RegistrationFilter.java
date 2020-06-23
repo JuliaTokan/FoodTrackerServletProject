@@ -20,7 +20,7 @@ import static ua.external.servlets.util.cоnst.JspConst.*;
 import static ua.external.servlets.util.cоnst.SessionConst.SESSION_EXIST_USER;
 
 /**
- * The {@code AuthorizationFilter} class
+ * The {@code RegistrationFilter} class
  * is an implementation of {@code Filter} interface.
  * Checks user data exist.
  */
@@ -30,7 +30,7 @@ public class RegistrationFilter implements Filter {
     private UserService userService;
 
     @Override
-    public void init(FilterConfig filterConfig) throws ServletException {
+    public void init(FilterConfig filterConfig) {
         userService = new UserService();
     }
 

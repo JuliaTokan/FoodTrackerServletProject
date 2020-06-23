@@ -30,15 +30,13 @@ public class AdminFilter implements Filter {
         HttpServletResponse response = (HttpServletResponse) servletResponse;
 
         HttpSession session = request.getSession();
-        if(nonNull(session.getAttribute(SessionConst.SESSION_EXIST_USER)) && (boolean)session.getAttribute(SessionConst.SESSION_EXIST_USER) == true){
+        if (nonNull(session.getAttribute(SessionConst.SESSION_EXIST_USER)) && (boolean) session.getAttribute(SessionConst.SESSION_EXIST_USER) == true) {
             User user = (User) session.getAttribute(SessionConst.SESSION_USER);
 
-            if(!user.getRole().getRole().equals("ADMIN")){
+            if (!user.getRole().getRole().equals("ADMIN")) {
                 response.sendRedirect(Page.WELCOME_PAGE);
-            }
-            else filterChain.doFilter(servletRequest, servletResponse);
-        }
-        else response.sendRedirect(Page.WELCOME_PAGE);
+            } else filterChain.doFilter(servletRequest, servletResponse);
+        } else response.sendRedirect(Page.WELCOME_PAGE);
     }
 
     @Override

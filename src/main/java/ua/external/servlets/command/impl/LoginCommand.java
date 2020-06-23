@@ -42,7 +42,7 @@ public class LoginCommand implements ActionCommand {
 
         String page;
         String login = request.getParameter(PARAM_LOGIN);
-        if (login==null || !DataValidator.validateLogin(login)) {
+        if (login == null || !DataValidator.validateLogin(login)) {
             log.info("invalid login format was received:" + login);
             request.setAttribute(JspConst.INVALID_LOGIN, true);
             request.setAttribute(JspConst.SIGNIN, true);
@@ -50,7 +50,7 @@ public class LoginCommand implements ActionCommand {
         }
 
         String password = request.getParameter(PARAM_PASSWORD);
-        if (password==null || !DataValidator.validatePassword(password)) {
+        if (password == null || !DataValidator.validatePassword(password)) {
             log.info("invalid password format was received:" + password);
             request.setAttribute(JspConst.INVALID_PASSWORD, true);
             request.setAttribute(JspConst.SIGNIN, true);
@@ -59,7 +59,7 @@ public class LoginCommand implements ActionCommand {
 
         final HttpSession session = request.getSession();
 
-        if (nonNull(session) && nonNull(session.getAttribute("exist_user")) && (boolean)session.getAttribute("exist_user") == true) {
+        if (nonNull(session) && nonNull(session.getAttribute("exist_user")) && (boolean) session.getAttribute("exist_user") == true) {
             log.info("user is already authorized");
             return new CommandResult(Page.WELCOME_PAGE, true);
         } else {
@@ -69,21 +69,19 @@ public class LoginCommand implements ActionCommand {
                 if (userOptional.isPresent()) {
                     User user = userOptional.get();
                     if (user.getPassword().equals(passwordHashGenerator.hash(password))) {
-                        //session.setAttribute(SESSION_EXIST_USER, true);
-                        //session.setAttribute(SESSION_USER, user);
+                        session.setAttribute(SESSION_EXIST_USER, true);
+                        session.setAttribute(SESSION_USER, user);
                         log.info("user with id = " + user.getId() + " log in");
 
-                        if(user.getClient_id() != 0){
+                        if (user.getClient_id() != 0) {
                             Optional<Client> optionalClient = clientService.findClientById(user.getClient_id());
-                            if(optionalClient.isPresent()){
+                            if (optionalClient.isPresent()) {
                                 Client client = optionalClient.get();
                                 session.setAttribute(SESSION_CLIENT, client);
                                 session.setAttribute(SESSION_NAME, client.getName());
                                 page = Page.WELCOME_PAGE;
-                            }
-                            else page = Page.CLIENT_INFO;
-                        }
-                        else page = Page.CLIENT_INFO;
+                            } else page = Page.CLIENT_INFO;
+                        } else page = Page.CLIENT_INFO;
                     } else {
                         log.info("user entered incorrect pass");
                         request.setAttribute(JspConst.SIGNIN, true);

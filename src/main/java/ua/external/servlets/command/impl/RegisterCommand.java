@@ -48,14 +48,14 @@ public class RegisterCommand implements ActionCommand {
         String page;
         String login = request.getParameter(PARAM_LOGIN);
 
-        if (login==null || !DataValidator.validateLogin(login)) {
+        if (login == null || !DataValidator.validateLogin(login)) {
             log.info("invalid login format was received:" + login);
             request.setAttribute(INVALID_LOGIN, true);
             return new CommandResult(Page.REGISTER_PAGE);
         }
 
         String password = request.getParameter(PARAM_PASSWORD);
-        if (password==null || !DataValidator.validatePassword(password)){
+        if (password == null || !DataValidator.validatePassword(password)) {
             log.info("invalid password format was received:" + password);
             request.setAttribute(INVALID_PASSWORD, true);
             return new CommandResult(Page.REGISTER_PAGE);

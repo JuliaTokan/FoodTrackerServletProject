@@ -1,9 +1,0 @@
-DROP TABLE clients;
-DROP TABLE users;
-DROP TABLE products;
-DROP TABLE meals;
-DROP TABLE roles;
-DROP TABLE genders;
-DROP TABLE nutritionGoals;
-DROP TABLE activities;
-DROP TABLE eatPeriods;

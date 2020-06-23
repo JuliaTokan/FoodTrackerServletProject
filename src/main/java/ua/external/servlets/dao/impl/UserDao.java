@@ -82,7 +82,7 @@ public class UserDao extends AbstractDao<Long, User> implements IUserDao {
             statement.setString(2, user.getPassword());
             statement.setLong(3, user.getRole().getId());
             ResultSet resultSet = statement.executeQuery();
-            if(resultSet!=null && resultSet.next()) {
+            if (resultSet != null && resultSet.next()) {
                 userID = resultSet.getLong("id");
                 user.setId(userID);
                 created = true;

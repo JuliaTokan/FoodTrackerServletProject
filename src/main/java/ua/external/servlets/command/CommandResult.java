@@ -6,13 +6,13 @@ package ua.external.servlets.command;
  * page and isRedirect,
  * that are used with a controller to find out where and how
  * a request and response should be processed after the controller.
- *
  */
 public class CommandResult {
     private String page;
     private boolean isRedirect;
 
-    public CommandResult() {}
+    public CommandResult() {
+    }
 
     public CommandResult(String page) {
         this.page = page;

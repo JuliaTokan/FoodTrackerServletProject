@@ -48,7 +48,7 @@ public class MealsPageCommand implements ActionCommand {
 
         try {
             products = productService.findAllProductsForUser(user.getId());
-            meals = mealsService.getAllMealForUserByDate(user.getId(), LocalDate.now());//getAllMealForUser(user.getId());
+            meals = mealsService.getAllMealForUserByDate(user.getId(), LocalDate.now());
             eatPeriods = eatPeriodService.findAllEatPeriods();
         } catch (ServiceException e) {
             log.error("Problem with service occurred!", e);

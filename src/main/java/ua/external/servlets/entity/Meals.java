@@ -5,14 +5,15 @@ import java.sql.Timestamp;
 /**
  * A model class for meals database table
  */
-public class Meals extends Entity{
+public class Meals extends Entity {
     private Long user_id;
     private Product product;
     private Integer weight;
     private EatPeriod eatPeriod;
     private Timestamp date;
 
-    public Meals(){}
+    public Meals() {
+    }
 
     public Meals(Long id, Long user_id, Product product, Integer weight, EatPeriod eatPeriod, Timestamp date) {
         super(id);

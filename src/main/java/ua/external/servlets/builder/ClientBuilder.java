@@ -18,7 +18,8 @@ public class ClientBuilder {
     private NutritionGoal nutritionGoal;
     private Activity activity;
 
-    public ClientBuilder(){}
+    public ClientBuilder() {
+    }
 
     public ClientBuilder(Client client) {
         this.id = client.getId();

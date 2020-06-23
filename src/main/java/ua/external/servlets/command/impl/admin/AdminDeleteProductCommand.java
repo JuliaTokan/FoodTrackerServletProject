@@ -27,11 +27,10 @@ public class AdminDeleteProductCommand implements ActionCommand {
         Long id = Long.parseLong(request.getParameter(PARAM_ID));
         HttpSession session = request.getSession();
         try {
-            if(productService.deleteProductById(id)){
-                log.info("delete product with id="+id);
+            if (productService.deleteProductById(id)) {
+                log.info("delete product with id=" + id);
                 page = request.getHeader(CURRENT_PAGE);
-            }
-            else {
+            } else {
                 session.setAttribute(MODAL_EDIT, true);
                 session.setAttribute(WRONG_DATA, true);
                 return new CommandResult(request.getHeader(CURRENT_PAGE), true);

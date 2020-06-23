@@ -52,7 +52,7 @@ public class ProductBuilder {
     }
 
     public ProductBuilder setCommon(Boolean common) {
-        this.common=common;
+        this.common = common;
         return this;
     }
 

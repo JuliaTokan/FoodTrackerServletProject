@@ -22,7 +22,7 @@ public class LogoutCommand implements ActionCommand {
     @Override
     public CommandResult execute(HttpServletRequest request, HttpServletResponse response) {
         final HttpSession session = request.getSession();
-        Long userId = ((User)session.getAttribute(SESSION_USER)).getId();
+        Long userId = ((User) session.getAttribute(SESSION_USER)).getId();
         session.removeAttribute(SESSION_EXIST_USER);
         session.removeAttribute(SESSION_NAME);
         session.removeAttribute(SESSION_USER);

@@ -72,13 +72,12 @@ public class AddProductCommand implements ActionCommand {
         }
 
         Product product;
-        try{
+        try {
             product = buildProduct(request);
-            if(productService.createProduct(product)){
-                log.info("create product with id="+product.getId());
+            if (productService.createProduct(product)) {
+                log.info("create product with id=" + product.getId());
                 page = request.getHeader("referer");
-            }
-            else {
+            } else {
                 session.setAttribute(MODAL, true);
                 session.setAttribute(WRONG_DATA, true);
                 return new CommandResult(request.getHeader("referer"), true);
@@ -98,7 +97,7 @@ public class AddProductCommand implements ActionCommand {
         Double fats = Double.parseDouble(request.getParameter(PARAM_FATS));
         Double carbohydrates = Double.parseDouble(request.getParameter(PARAM_CARBOHYDRATES));
 
-        Boolean isPublic = request.getParameter(PARAM_PUBLIC)==null?false:request.getParameter(PARAM_PUBLIC).equals("on")?true:false;
+        Boolean isPublic = request.getParameter(PARAM_PUBLIC) == null ? false : request.getParameter(PARAM_PUBLIC).equals("on") ? true : false;
 
         HttpSession session = request.getSession();
         User user = (User) session.getAttribute(PARAM_USER);

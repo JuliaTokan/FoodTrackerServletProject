@@ -39,11 +39,10 @@ public class ClientUpdatePageCommand implements ActionCommand {
         HttpSession session = request.getSession();
         Client client = (Client) session.getAttribute(SESSION_CLIENT);
 
-        if(client == null) {
+        if (client == null) {
             log.error("Try edit nonexistent client. Redirect to create client information");
             return new CommandResult(Page.CLIENT_INFO, true);
-        }
-        else {
+        } else {
             List<Gender> genders = new ArrayList<>();
             List<Activity> activities = new ArrayList<>();
             List<NutritionGoal> nutritionGoals = new ArrayList<>();

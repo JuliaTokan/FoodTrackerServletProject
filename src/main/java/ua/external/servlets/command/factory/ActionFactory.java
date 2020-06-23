@@ -16,8 +16,8 @@ public class ActionFactory {
 
     public static ActionCommand defineCommand(HttpServletRequest request) {
         ActionCommand currentCommand = new EmptyCommand();
-        String  action = request.getRequestURI().replace("/","");
-        action += request.getContentType()==null?"get":"post";
+        String action = request.getRequestURI().replace("/", "");
+        action += request.getContentType() == null ? "get" : "post";
         if (action == null || action.isEmpty()) {
             return currentCommand;
         }

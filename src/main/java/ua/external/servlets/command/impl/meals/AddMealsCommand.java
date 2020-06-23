@@ -48,14 +48,13 @@ public class AddMealsCommand implements ActionCommand {
         Meals meals;
         try {
             meals = buildMeals(request);
-            if(mealsService.createMeals(meals)){
+            if (mealsService.createMeals(meals)) {
                 HttpSession session = request.getSession();
                 User user = (User) session.getAttribute(PARAM_USER);
-                log.info("create meals for user with id="+user.getId());
+                log.info("create meals for user with id=" + user.getId());
                 page = Page.MEALS;
                 checkCaloriesLimit(user);
-            }
-            else {
+            } else {
                 request.setAttribute(WRONG_DATA, true);
                 return new CommandResult(Page.MEALS_PAGE);
             }
@@ -87,18 +86,18 @@ public class AddMealsCommand implements ActionCommand {
                 .createMeals();
     }
 
-    private void checkCaloriesLimit(User user){
+    private void checkCaloriesLimit(User user) {
         Integer calories = 0;
         try {
             calories = userService.countCalories(user);
         } catch (ServiceException e) {
-            log.info("Cannot check calories for user with id="+user.getId());
+            log.info("Cannot check calories for user with id=" + user.getId());
         }
 
-        if(user.getClient_id()!=null && user.getClient_id()!=0){
+        if (user.getClient_id() != null && user.getClient_id() != 0) {
             try {
                 Client client = clientService.findClientById(user.getClient_id()).get();
-                if(client.getCalories()<calories){
+                if (client.getCalories() < calories) {
                     sendEmail.sendWarningLetter(user.getLogin());
                 }
             } catch (ServiceException e) {

@@ -91,7 +91,7 @@ public class ClientDao extends AbstractDao<Long, Client> implements IClientDao {
             statement.setDouble(10, client.getFats());
             statement.setDouble(11, client.getCarbohydrates());
             ResultSet resultSet = statement.executeQuery();
-            if(resultSet!=null && resultSet.next()) {
+            if (resultSet != null && resultSet.next()) {
                 clientID = resultSet.getLong("id");
                 client.setId(clientID);
                 created = true;
