@@ -72,7 +72,7 @@ public class CreateClientInfoCommand implements ActionCommand {
             if (clientService.createClient(client)) {
                 HttpSession session = request.getSession();
                 User user = (User) session.getAttribute(PARAM_USER);
-                user.setClient_id(client.getId());
+                user.setClientId(client.getId());
                 if (userService.updateUser(user)) {
                     session.setAttribute(SESSION_CLIENT, client);
                     session.setAttribute(SESSION_NAME, client.getName());
@@ -120,5 +120,7 @@ public class CreateClientInfoCommand implements ActionCommand {
                 .setNutritionGoal(nutritionGoal)
                 .createClient();
     }
+
+
 
 }

@@ -59,7 +59,8 @@ public class LoginCommand implements ActionCommand {
 
         final HttpSession session = request.getSession();
 
-        if (nonNull(session) && nonNull(session.getAttribute("exist_user")) && (boolean) session.getAttribute("exist_user") == true) {
+        if (nonNull(session) && nonNull(session.getAttribute("exist_user")) &&
+                (boolean) session.getAttribute("exist_user") == true) {
             log.info("user is already authorized");
             return new CommandResult(Page.WELCOME_PAGE, true);
         } else {

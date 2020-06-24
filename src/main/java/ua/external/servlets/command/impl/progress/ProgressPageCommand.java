@@ -73,7 +73,8 @@ public class ProgressPageCommand implements ActionCommand {
                 for (int i = 0; i < WEEK; i++) {
                     LocalDate date = cur_date.minusDays(i);
                     List<Meals> meals = mealsService.getAllMealForUserByDate(user.getId(), date);
-                    Integer numOfCalories = meals.stream().mapToInt(x -> x.getProduct().getCalories() * x.getWeight() / 100).sum();
+                    Integer numOfCalories = meals.stream()
+                            .mapToInt(x -> x.getProduct().getCalories() * x.getWeight() / 100).sum();
                     weekInfo.put(date.toString(), numOfCalories);
                 }
                 ObjectMapper mapper = new ObjectMapper();

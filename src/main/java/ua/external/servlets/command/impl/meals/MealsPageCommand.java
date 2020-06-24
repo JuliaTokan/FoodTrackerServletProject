@@ -65,7 +65,8 @@ public class MealsPageCommand implements ActionCommand {
         Map<EatPeriod, List<Meals>> structMeals = new LinkedHashMap<>();
 
         for (EatPeriod eatPeriod : eatPeriods) {
-            List<Meals> mealsByTime = meals.stream().filter(x -> x.getEatPeriod().getId() == eatPeriod.getId()).collect(Collectors.toList());
+            List<Meals> mealsByTime = meals.stream().filter(x -> x.getEatPeriod().getId() == eatPeriod.getId())
+                    .collect(Collectors.toList());
             structMeals.put(eatPeriod, mealsByTime);
         }
         return structMeals;

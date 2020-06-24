@@ -96,15 +96,4 @@ public class AdminProductCommand implements ActionCommand {
 
         return page;
     }
-
-    private List<Product> getProducts(List<Product> products, int from, int to) {
-        ArrayList<Product> queryProducts = new ArrayList<>();
-        if (products.size() < to) {
-            to = products.size();
-        }
-        for (int i = from - 1; i < to; i++) {
-            queryProducts.add(products.get(i));
-        }
-        return queryProducts;
-    }
 }

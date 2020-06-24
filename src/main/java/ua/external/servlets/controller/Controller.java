@@ -12,6 +12,8 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
+import static ua.external.servlets.util.page.Page.WELCOME_PAGE;
+
 /**
  * The {@code Controller} class is a main HttpServlet.
  * Overrides doPost and doGet methods by calling
@@ -28,7 +30,8 @@ public class Controller extends HttpServlet {
     }
 
     private void processRequest(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        ActionCommand command = ActionFactory.defineCommand(request);
+        ActionFactory actionFactory = new ActionFactory();
+        ActionCommand command = actionFactory.defineCommand(request);
         CommandResult commandResult = command.execute(request, response);
         String page;
         if (commandResult.getPage() != null) {
@@ -40,7 +43,7 @@ public class Controller extends HttpServlet {
                 dispatcher.forward(request, response);
             }
         } else {
-            page = "/";
+            page = WELCOME_PAGE;
             response.sendRedirect(request.getContextPath() + page);
         }
     }

@@ -9,4 +9,5 @@ import java.util.List;
  */
 public interface IMealsDao {
     List<Meals> findAllByUser(Long id) throws DaoException;
+    List<Meals> findAllByUserAndDay(Long id, String date) throws DaoException;
 }

@@ -14,7 +14,7 @@ import javax.servlet.http.HttpServletRequest;
 public class ActionFactory {
     private static Logger log = LogManager.getLogger(ActionFactory.class);
 
-    public static ActionCommand defineCommand(HttpServletRequest request) {
+    public ActionCommand defineCommand(HttpServletRequest request) {
         ActionCommand currentCommand = new EmptyCommand();
         String action = request.getRequestURI().replace("/", "");
         action += request.getContentType() == null ? "get" : "post";

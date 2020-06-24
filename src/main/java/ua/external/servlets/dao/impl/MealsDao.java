@@ -5,6 +5,7 @@ import ua.external.servlets.dao.AbstractDao;
 import ua.external.servlets.dao.DaoException;
 import ua.external.servlets.dao.IMealsDao;
 import ua.external.servlets.dao.TableColumn;
+import ua.external.servlets.entity.Client;
 import ua.external.servlets.entity.EatPeriod;
 import ua.external.servlets.entity.Meals;
 import ua.external.servlets.entity.Product;
@@ -24,9 +25,12 @@ public class MealsDao extends AbstractDao<Long, Meals> implements IMealsDao {
     private final static String SQL_SELECT_ALL_MEALS = "SELECT * FROM meals";
     private final static String SQL_SELECT_MEALS_BY_ID = "SELECT * FROM meals WHERE id = ?";
     private final static String SQL_SELECT_MEALS_BY_USER = "SELECT * FROM meals WHERE user_id = ?";
-    private final static String SQL_SELECT_MEALS_BY_USER_AND_DAY = "SELECT * FROM meals WHERE user_id = ? AND TO_CHAR(date, 'YYYY-MM-DD') = ?";
-    private final static String SQL_CREATE_MEALS = "INSERT INTO meals (user_id, product_id, weight, eat_period_id, date) VALUES (?, ?, ?, ?, ?)";
-    private final static String SQL_UPDATE_MEALS = "UPDATE meals SET user_id= ?, product_id= ?, weight= ?, eat_period_id= ?, date= ? WHERE id= ?";
+    private final static String SQL_SELECT_MEALS_BY_USER_AND_DAY = "SELECT * FROM meals WHERE user_id = ? " +
+            "AND TO_CHAR(date, 'YYYY-MM-DD') = ?";
+    private final static String SQL_CREATE_MEALS = "INSERT INTO meals (user_id, product_id, weight, eat_period_id, " +
+            "date) VALUES (?, ?, ?, ?, ?)";
+    private final static String SQL_UPDATE_MEALS = "UPDATE meals SET user_id= ?, product_id= ?, weight= ?, " +
+            "eat_period_id= ?, date= ? WHERE id= ?";
     private final static String SQL_DELETE_MEAL = "DELETE FROM meals WHERE id= ?";
 
     private ProductService productService = new ProductService();
@@ -92,7 +96,7 @@ public class MealsDao extends AbstractDao<Long, Meals> implements IMealsDao {
         return mealsList;
     }
 
-    //@Override
+    @Override
     public List<Meals> findAllByUserAndDay(Long id, String date) throws DaoException {
         List<Meals> mealsList = new ArrayList<>();
         PreparedStatement statement = null;
@@ -119,11 +123,7 @@ public class MealsDao extends AbstractDao<Long, Meals> implements IMealsDao {
         PreparedStatement statement = null;
         try {
             statement = connection.prepareStatement(SQL_CREATE_MEALS);
-            statement.setLong(1, meals.getUserId());
-            statement.setLong(2, meals.getProduct().getId());
-            statement.setInt(3, meals.getWeight());
-            statement.setLong(4, meals.getEatPeriod().getId());
-            statement.setTimestamp(5, meals.getDate());
+            buildPreparedStatementWithoutMealsId(statement, meals);
             int updatedRows = statement.executeUpdate();
             created = updatedRows != 0;
         } catch (SQLException e) {
@@ -140,12 +140,7 @@ public class MealsDao extends AbstractDao<Long, Meals> implements IMealsDao {
         boolean updated;
         try {
             statement = connection.prepareStatement(SQL_UPDATE_MEALS);
-            statement.setLong(1, meals.getUserId());
-            statement.setLong(2, meals.getProduct().getId());
-            statement.setInt(3, meals.getWeight());
-            statement.setLong(4, meals.getEatPeriod().getId());
-            statement.setTimestamp(5, meals.getDate());
-            statement.setLong(6, meals.getId());
+            buildPreparedStatementWithMealsId(statement, meals);
             updated = statement.executeUpdate() != 0;
         } catch (SQLException e) {
             throw new DaoException(e);
@@ -193,5 +188,20 @@ public class MealsDao extends AbstractDao<Long, Meals> implements IMealsDao {
                 .createMeals();
 
         return meals;
+    }
+
+    private void buildPreparedStatementWithoutMealsId(PreparedStatement statement,
+                                                      Meals meals) throws SQLException {
+        statement.setLong(1, meals.getUserId());
+        statement.setLong(2, meals.getProduct().getId());
+        statement.setInt(3, meals.getWeight());
+        statement.setLong(4, meals.getEatPeriod().getId());
+        statement.setTimestamp(5, meals.getDate());
+    }
+
+    private void buildPreparedStatementWithMealsId(PreparedStatement statement,
+                                                   Meals meals) throws SQLException {
+        buildPreparedStatementWithoutMealsId(statement, meals);
+        statement.setLong(6, meals.getId());
     }
 }

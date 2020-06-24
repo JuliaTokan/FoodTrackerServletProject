@@ -25,8 +25,12 @@ import java.util.Optional;
 public class ClientDao extends AbstractDao<Long, Client> implements IClientDao {
     private final static String SQL_SELECT_ALL_CLIENTS = "SELECT * FROM clients";
     private final static String SQL_SELECT_CLIENT_BY_ID = "SELECT * FROM clients WHERE id = ?";
-    private final static String SQL_CREATE_CLIENT = "INSERT INTO clients (name, gender_id, age, height, weight, nutritiongoal_id, activity_id, calories, protein, fats, carbohydrates) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) RETURNING id";
-    private final static String SQL_UPDATE_CLIENT = "UPDATE clients SET name= ?, gender_id=?, age=?, height= ?, weight= ?, nutritiongoal_id= ?, activity_id= ?, calories= ?, protein= ?, fats= ?, carbohydrates= ? WHERE id= ?";
+    private final static String SQL_CREATE_CLIENT = "INSERT INTO clients (name, gender_id, age, height, weight, " +
+            "nutritiongoal_id, activity_id, calories, protein, fats, carbohydrates) " +
+            "VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) RETURNING id";
+    private final static String SQL_UPDATE_CLIENT = "UPDATE clients SET name= ?, gender_id=?, age=?, height= ?, " +
+            "weight= ?, nutritiongoal_id= ?, activity_id= ?, calories= ?, protein= ?, fats= ?, carbohydrates= ? " +
+            "WHERE id= ?";
 
     private GenderService genderService = new GenderService();
     private ActivityService activityService = new ActivityService();
@@ -79,17 +83,7 @@ public class ClientDao extends AbstractDao<Long, Client> implements IClientDao {
         PreparedStatement statement = null;
         try {
             statement = connection.prepareStatement(SQL_CREATE_CLIENT);
-            statement.setString(1, client.getName());
-            statement.setLong(2, client.getGender().getId());
-            statement.setInt(3, client.getAge());
-            statement.setDouble(4, client.getHeight());
-            statement.setDouble(5, client.getWeight());
-            statement.setLong(6, client.getNutritionGoal().getId());
-            statement.setLong(7, client.getActivity().getId());
-            statement.setInt(8, client.getCalories());
-            statement.setDouble(9, client.getProtein());
-            statement.setDouble(10, client.getFats());
-            statement.setDouble(11, client.getCarbohydrates());
+            buildPreparedStatementWithoutClientId(statement, client);
             ResultSet resultSet = statement.executeQuery();
             if (resultSet != null && resultSet.next()) {
                 clientID = resultSet.getLong("id");
@@ -111,18 +105,7 @@ public class ClientDao extends AbstractDao<Long, Client> implements IClientDao {
         boolean updated;
         try {
             statement = connection.prepareStatement(SQL_UPDATE_CLIENT);
-            statement.setString(1, client.getName());
-            statement.setLong(2, client.getGender().getId());
-            statement.setInt(3, client.getAge());
-            statement.setDouble(4, client.getHeight());
-            statement.setDouble(5, client.getWeight());
-            statement.setLong(6, client.getNutritionGoal().getId());
-            statement.setLong(7, client.getActivity().getId());
-            statement.setInt(8, client.getCalories());
-            statement.setDouble(9, client.getProtein());
-            statement.setDouble(10, client.getFats());
-            statement.setDouble(11, client.getCarbohydrates());
-            statement.setLong(12, client.getId());
+            buildPreparedStatementWithClientId(statement, client);
             updated = statement.executeUpdate() != 0;
         } catch (SQLException e) {
             throw new DaoException(e);
@@ -158,10 +141,31 @@ public class ClientDao extends AbstractDao<Long, Client> implements IClientDao {
                 .setNutritionGoal(nutritionGoal)
                 .setActivity(activity)
                 .createClient();
-        client.setCalories(resultSet.getInt(TableColumn.CLIENT_CALORIES));
-        client.setProtein(resultSet.getDouble(TableColumn.CLIENT_PROTEIN));
-        client.setFats(resultSet.getDouble(TableColumn.CLIENT_FATS));
-        client.setCarbohydrates(resultSet.getDouble(TableColumn.CLIENT_CARBOHYDRATES));
+                client.setCalories(resultSet.getInt(TableColumn.CLIENT_CALORIES));
+                client.setProtein(resultSet.getDouble(TableColumn.CLIENT_PROTEIN));
+                client.setFats(resultSet.getDouble(TableColumn.CLIENT_FATS));
+                client.setCarbohydrates(resultSet.getDouble(TableColumn.CLIENT_CARBOHYDRATES));
         return client;
+    }
+
+    private void buildPreparedStatementWithoutClientId(PreparedStatement statement,
+                                                       Client client) throws SQLException {
+        statement.setString(1, client.getName());
+        statement.setLong(2, client.getGender().getId());
+        statement.setInt(3, client.getAge());
+        statement.setDouble(4, client.getHeight());
+        statement.setDouble(5, client.getWeight());
+        statement.setLong(6, client.getNutritionGoal().getId());
+        statement.setLong(7, client.getActivity().getId());
+        statement.setInt(8, client.getCalories());
+        statement.setDouble(9, client.getProtein());
+        statement.setDouble(10, client.getFats());
+        statement.setDouble(11, client.getCarbohydrates());
+    }
+
+    private void buildPreparedStatementWithClientId(PreparedStatement statement,
+                                                    Client client) throws SQLException {
+        buildPreparedStatementWithoutClientId(statement, client);
+        statement.setLong(12, client.getId());
     }
 }

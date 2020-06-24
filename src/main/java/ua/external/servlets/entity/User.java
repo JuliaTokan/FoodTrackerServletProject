@@ -47,7 +47,7 @@ public class User extends Entity{
         return client_id;
     }
 
-    public void setClient_id(Long client_id) {
+    public void setClientId(Long client_id) {
         this.client_id = client_id;
     }
 }

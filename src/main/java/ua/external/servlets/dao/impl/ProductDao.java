@@ -25,7 +25,7 @@ public class ProductDao extends AbstractDao<Long, Product> implements IProductDa
     private final static String SQL_SELECT_ALL_PRODUCTS_BY_USER = "SELECT * FROM products WHERE (common = true OR user_id= ?) AND deleted = false";
     private final static String SQL_SELECT_PRODUCT_BY_ID = "SELECT * FROM products WHERE id = ?";
     private final static String SQL_CREATE_PRODUCT = "INSERT INTO products (name, user_id, calories, protein, fats, carbohydrates, common, deleted) VALUES (?, ?, ?, ?, ?, ?, ?, ?) RETURNING id";
-    private final static String SQL_UPDATE_PRODUCT = "UPDATE products SET name= ?, calories= ?, protein= ?, fats= ?, carbohydrates= ?, common= ?, deleted= ? WHERE id= ?";
+    private final static String SQL_UPDATE_PRODUCT = "UPDATE products SET name= ?, user_id= ?, calories= ?, protein= ?, fats= ?, carbohydrates= ?, common= ?, deleted= ? WHERE id= ?";
     private final static String SQL_UPDATE_DELETE_PRODUCT = "UPDATE products SET deleted= true WHERE id= ?";
     private final static String SQL_DELETE_PRODUCT = "DELETE FROM products WHERE id= ?";
     private final static String SQL_SELECT_USER_PRODUCT = "SELECT * FROM users INNER JOIN meals ON users.id = meals.user_id INNER JOIN products ON meals.product_id = products.id WHERE users.id = ? AND TO_CHAR(date, 'YYYY-MM-DD') = ?";
@@ -100,14 +100,7 @@ public class ProductDao extends AbstractDao<Long, Product> implements IProductDa
         PreparedStatement statement = null;
         try {
             statement = connection.prepareStatement(SQL_CREATE_PRODUCT);
-            statement.setString(1, product.getName());
-            statement.setLong(2, product.getUserId());
-            statement.setInt(3, product.getCalories());
-            statement.setDouble(4, product.getProtein());
-            statement.setDouble(5, product.getFats());
-            statement.setDouble(6, product.getCarbohydrates());
-            statement.setBoolean(7, product.getCommon());
-            statement.setBoolean(8, product.getDeleted());
+            buildPreparedStatementWithoutProductId(statement, product);
             ResultSet resultSet = statement.executeQuery();
             if(resultSet!=null && resultSet.next()) {
                 productId = resultSet.getLong("id");
@@ -128,14 +121,7 @@ public class ProductDao extends AbstractDao<Long, Product> implements IProductDa
         boolean updated;
         try {
             statement = connection.prepareStatement(SQL_UPDATE_PRODUCT);
-            statement.setString(1, product.getName());
-            statement.setInt(2, product.getCalories());
-            statement.setDouble(3, product.getProtein());
-            statement.setDouble(4, product.getFats());
-            statement.setDouble(5, product.getCarbohydrates());
-            statement.setBoolean(6, product.getCommon());
-            statement.setBoolean(7, product.getDeleted());
-            statement.setLong(8, product.getId());
+            buildPreparedStatementWithProductId(statement, product);
             updated = statement.executeUpdate() != 0;
         } catch (SQLException e) {
             throw new DaoException(e);
@@ -260,5 +246,23 @@ public class ProductDao extends AbstractDao<Long, Product> implements IProductDa
                 .setDeleted(resultSet.getBoolean(TableColumn.PRODUCT_DELETED))
                 .createProduct();
         return product;
+    }
+
+    private void buildPreparedStatementWithoutProductId(PreparedStatement statement,
+                                                      Product product) throws SQLException {
+        statement.setString(1, product.getName());
+        statement.setLong(2, product.getUserId());
+        statement.setInt(3, product.getCalories());
+        statement.setDouble(4, product.getProtein());
+        statement.setDouble(5, product.getFats());
+        statement.setDouble(6, product.getCarbohydrates());
+        statement.setBoolean(7, product.getCommon());
+        statement.setBoolean(8, product.getDeleted());
+    }
+
+    private void buildPreparedStatementWithProductId(PreparedStatement statement,
+                                                   Product product) throws SQLException {
+        buildPreparedStatementWithoutProductId(statement, product);
+        statement.setLong(9, product.getId());
     }
 }
