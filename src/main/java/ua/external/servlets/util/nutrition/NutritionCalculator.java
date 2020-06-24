@@ -35,7 +35,8 @@ public class NutritionCalculator {
         return resultCalories;
     }
 
-    public static Integer calculateCalories(Gender gender, Double weight, Double height, Integer age, Activity activity, NutritionGoal nutritionGoal) {
+    public static Integer calculateCalories(Gender gender, Double weight, Double height, Integer age, Activity activity,
+                                            NutritionGoal nutritionGoal) {
         Integer calories = calculateBaseCalories(gender, weight, height, age);
         calories = calculateDailyCaloriesByActivity(activity, calories);
         return calculateDailyCaloriesByNutritionGoal(nutritionGoal, calories);

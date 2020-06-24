@@ -22,7 +22,8 @@ public class ActionFactoryTest {
     @Test
     public void execute(){
         when(request.getRequestURI()).thenReturn("http://localhost:8080/sign/up");
-        ActionCommand actionCommand = ActionFactory.defineCommand(request);
+        ActionFactory actionFactory = new ActionFactory();
+        ActionCommand actionCommand = actionFactory.defineCommand(request);
         assertEquals(CommandType.SIGNUPGET, actionCommand);
     }
 

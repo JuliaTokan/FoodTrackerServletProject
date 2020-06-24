@@ -26,12 +26,14 @@ public class UserFilter implements Filter {
     }
 
     @Override
-    public void doFilter(ServletRequest servletRequest, ServletResponse servletResponse, FilterChain filterChain) throws IOException, ServletException {
+    public void doFilter(ServletRequest servletRequest, ServletResponse servletResponse,
+                         FilterChain filterChain) throws IOException, ServletException {
         HttpServletRequest request = (HttpServletRequest) servletRequest;
         HttpServletResponse response = (HttpServletResponse) servletResponse;
 
         HttpSession session = request.getSession();
-        if (nonNull(session.getAttribute(SESSION_EXIST_USER)) && (boolean) session.getAttribute(SESSION_EXIST_USER) == true) {
+        if (nonNull(session.getAttribute(SESSION_EXIST_USER)) &&
+                (boolean) session.getAttribute(SESSION_EXIST_USER) == true) {
             User user = (User) session.getAttribute(SESSION_USER);
             if (user == null) {
                 response.sendRedirect(Page.LOGIN_PAGE);

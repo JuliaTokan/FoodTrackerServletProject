@@ -35,7 +35,8 @@ public class RegistrationFilter implements Filter {
     }
 
     @Override
-    public void doFilter(ServletRequest servletRequest, ServletResponse servletResponse, FilterChain filterChain) throws IOException, ServletException {
+    public void doFilter(ServletRequest servletRequest, ServletResponse servletResponse,
+                         FilterChain filterChain) throws IOException, ServletException {
         HttpServletRequest request = (HttpServletRequest) servletRequest;
         HttpServletResponse response = (HttpServletResponse) servletResponse;
         final String login = request.getParameter(PARAM_LOGIN);
@@ -43,7 +44,8 @@ public class RegistrationFilter implements Filter {
 
         final HttpSession session = request.getSession();
 
-        if (nonNull(session) && nonNull(session.getAttribute(SESSION_EXIST_USER)) && (boolean) session.getAttribute(SESSION_EXIST_USER) == true) {
+        if (nonNull(session) && nonNull(session.getAttribute(SESSION_EXIST_USER)) &&
+                (boolean) session.getAttribute(SESSION_EXIST_USER) == true) {
             //user already login
             response.sendRedirect(Page.WELCOME_PAGE);
         } else {

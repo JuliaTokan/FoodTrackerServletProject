@@ -15,7 +15,7 @@ import javax.servlet.http.HttpServletRequest;
 @WebFilter(filterName = "CrossScriptingFilter", urlPatterns = {"/*"})
 public class CrossScriptingFilter implements Filter {
 
-    public void init(FilterConfig filterConfig) throws ServletException {
+    public void init(FilterConfig filterConfig) {
     }
 
     public void destroy() {

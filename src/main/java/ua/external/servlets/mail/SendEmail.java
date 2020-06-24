@@ -9,8 +9,11 @@ import ua.external.servlets.util.cоnst.EmailContent;
 import javax.mail.*;
 import javax.mail.internet.InternetAddress;
 import javax.mail.internet.MimeMessage;
+import java.io.BufferedReader;
+import java.io.FileReader;
 import java.io.IOException;
 import java.io.InputStream;
+import java.nio.file.Files;
 import java.util.Properties;
 
 /**
@@ -48,11 +51,13 @@ public class SendEmail {
     }
 
     public void sendWelcomeLetter(String sendTo) throws ServiceException {
-        send(sendTo, "Welcome to Eat&Fit", EmailContent.WELCOME_LETTER);
+        final String WELCOME_LETTER = getWelcomeContent();
+        send(sendTo, "Welcome to Eat&Fit", WELCOME_LETTER);
     }
 
     public void sendWarningLetter(String sendTo) throws ServiceException {
-        send(sendTo, "Your limit reached", EmailContent.WARNING_LETTER);
+        final String WARNING_LETTER = getWarningContent();
+        send(sendTo, "Your limit reached", WARNING_LETTER);
     }
 
     private Properties loadProperties(String fileName) {
@@ -64,5 +69,29 @@ public class SendEmail {
             throw new RuntimeException(e);
         }
         return properties;
+    }
+
+    private String getWelcomeContent(){
+        return readFromFile("src/main/webapp/email/welcome_letter.html");
+    }
+
+    private String getWarningContent(){
+        return readFromFile("src/main/webapp/email/warning_letter.html");
+    }
+
+    private String readFromFile(String path){
+        StringBuilder contentBuilder = new StringBuilder();
+        try {
+            BufferedReader in = new BufferedReader(new FileReader(path));
+            String str;
+            while ((str = in.readLine()) != null) {
+                contentBuilder.append(str);
+            }
+            in.close();
+        } catch (IOException e) {
+            logger.log(Level.FATAL, "Reading file error", e);
+        }
+        String content = contentBuilder.toString();
+        return content;
     }
 }

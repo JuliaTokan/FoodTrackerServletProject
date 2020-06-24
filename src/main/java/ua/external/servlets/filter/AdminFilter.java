@@ -21,16 +21,18 @@ import static java.util.Objects.nonNull;
 @WebFilter(filterName = "AdminFilter", urlPatterns = {"/admin/*"})
 public class AdminFilter implements Filter {
     @Override
-    public void init(FilterConfig filterConfig) throws ServletException {
+    public void init(FilterConfig filterConfig) {
     }
 
     @Override
-    public void doFilter(ServletRequest servletRequest, ServletResponse servletResponse, FilterChain filterChain) throws IOException, ServletException {
+    public void doFilter(ServletRequest servletRequest, ServletResponse servletResponse,
+                         FilterChain filterChain) throws IOException, ServletException {
         HttpServletRequest request = (HttpServletRequest) servletRequest;
         HttpServletResponse response = (HttpServletResponse) servletResponse;
 
         HttpSession session = request.getSession();
-        if (nonNull(session.getAttribute(SessionConst.SESSION_EXIST_USER)) && (boolean) session.getAttribute(SessionConst.SESSION_EXIST_USER) == true) {
+        if (nonNull(session.getAttribute(SessionConst.SESSION_EXIST_USER)) &&
+                (boolean) session.getAttribute(SessionConst.SESSION_EXIST_USER) == true) {
             User user = (User) session.getAttribute(SessionConst.SESSION_USER);
 
             if (!user.getRole().getRole().equals("ADMIN")) {
