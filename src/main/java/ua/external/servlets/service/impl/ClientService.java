@@ -6,6 +6,7 @@ import org.apache.logging.log4j.Logger;
 import ua.external.servlets.dao.DaoException;
 import ua.external.servlets.dao.EntityTransaction;
 import ua.external.servlets.dao.impl.ClientDao;
+import ua.external.servlets.dao.impl.UserDao;
 import ua.external.servlets.entity.*;
 import ua.external.servlets.service.IClientService;
 import ua.external.servlets.service.ServiceException;
@@ -31,6 +32,31 @@ public class ClientService implements IClientService {
             throw new ServiceException(e);
         } finally {
             transaction.endNoTransaction();
+        }
+
+        return flag;
+    }
+
+    //@Override
+    public boolean createClient(Client client, User user) throws ServiceException {
+        ClientDao clientDao = new ClientDao();
+        UserDao userDao = new UserDao();
+        EntityTransaction transaction = new EntityTransaction();
+
+        boolean flag = false;
+
+        transaction.begin(clientDao, userDao);
+        try {
+            flag = clientDao.create(client);
+            user.setClientId(client.getId());
+            flag = userDao.update(user);
+            transaction.commit();
+        } catch (DaoException e) {
+            transaction.rollback();
+            logger.log(Level.ERROR, "Exception while executing service", e);
+            throw new ServiceException(e);
+        } finally {
+            transaction.end();
         }
 
         return flag;

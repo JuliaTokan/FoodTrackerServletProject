@@ -58,6 +58,7 @@ public class EntityTransaction {
             connection = null;
         }
     }
+
     public void commit() {
         try {
             connection.commit();

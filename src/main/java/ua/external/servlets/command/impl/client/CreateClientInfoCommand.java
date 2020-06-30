@@ -69,23 +69,21 @@ public class CreateClientInfoCommand implements ActionCommand {
         Client client;
         try {
             client = buildClient(request);
-            if (clientService.createClient(client)) {
-                HttpSession session = request.getSession();
-                User user = (User) session.getAttribute(PARAM_USER);
-                user.setClientId(client.getId());
-                if (userService.updateUser(user)) {
-                    session.setAttribute(SESSION_CLIENT, client);
-                    session.setAttribute(SESSION_NAME, client.getName());
-                    log.info("create client information for user with id=" + user.getId());
-                    page = Page.WELCOME_PAGE;
-                } else {
-                    request.setAttribute(WRONG_DATA, true);
-                    return new CommandResult(Page.CLIENT_INFO_PAGE);
-                }
-            } else {
+
+            HttpSession session = request.getSession();
+            User user = (User) session.getAttribute(PARAM_USER);
+
+            if(clientService.createClient(client, user)){
+                session.setAttribute(SESSION_CLIENT, client);
+                session.setAttribute(SESSION_NAME, client.getName());
+                log.info("create client information for user with id=" + user.getId());
+                page = Page.WELCOME_PAGE;
+            }
+            else {
                 request.setAttribute(WRONG_DATA, true);
                 return new CommandResult(Page.CLIENT_INFO_PAGE);
             }
+
         } catch (ServiceException e) {
             log.error("Problem with service occurred!", e);
             page = Page.CLIENT_INFO;

@@ -4,7 +4,6 @@ import org.apache.logging.log4j.Level;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import ua.external.servlets.service.ServiceException;
-import ua.external.servlets.util.cоnst.EmailContent;
 
 import javax.mail.*;
 import javax.mail.internet.InternetAddress;
@@ -13,7 +12,6 @@ import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 import java.io.InputStream;
-import java.nio.file.Files;
 import java.util.Properties;
 
 /**
