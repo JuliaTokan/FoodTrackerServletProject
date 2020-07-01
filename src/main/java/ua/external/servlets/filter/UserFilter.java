@@ -33,7 +33,7 @@ public class UserFilter implements Filter {
 
         HttpSession session = request.getSession();
         if (nonNull(session.getAttribute(SESSION_EXIST_USER)) &&
-                (boolean) session.getAttribute(SESSION_EXIST_USER) == true) {
+                (boolean) session.getAttribute(SESSION_EXIST_USER)) {
             User user = (User) session.getAttribute(SESSION_USER);
             if (user == null) {
                 response.sendRedirect(Page.LOGIN_PAGE);

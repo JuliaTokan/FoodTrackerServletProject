@@ -69,7 +69,7 @@ public class ClientUpdateCommand implements ActionCommand {
             return new CommandResult(Page.CLIENT_EDIT, true);
         }
 
-        Client client = (Client) session.getAttribute("client");
+        Client client = (Client) session.getAttribute(SESSION_CLIENT);
         Client newClient;
         try {
             newClient = updateClient(request, client.getId());

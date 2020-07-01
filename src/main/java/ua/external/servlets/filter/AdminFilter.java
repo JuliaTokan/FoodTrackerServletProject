@@ -32,7 +32,7 @@ public class AdminFilter implements Filter {
 
         HttpSession session = request.getSession();
         if (nonNull(session.getAttribute(SessionConst.SESSION_EXIST_USER)) &&
-                (boolean) session.getAttribute(SessionConst.SESSION_EXIST_USER) == true) {
+                (boolean) session.getAttribute(SessionConst.SESSION_EXIST_USER)) {
             User user = (User) session.getAttribute(SessionConst.SESSION_USER);
 
             if (!user.getRole().getRole().equals("ADMIN")) {

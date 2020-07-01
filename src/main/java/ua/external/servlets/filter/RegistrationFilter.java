@@ -45,7 +45,7 @@ public class RegistrationFilter implements Filter {
         final HttpSession session = request.getSession();
 
         if (nonNull(session) && nonNull(session.getAttribute(SESSION_EXIST_USER)) &&
-                (boolean) session.getAttribute(SESSION_EXIST_USER) == true) {
+                (boolean) session.getAttribute(SESSION_EXIST_USER)) {
             //user already login
             response.sendRedirect(Page.WELCOME_PAGE);
         } else {
